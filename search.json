@@ -2,15 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "HUPO-PSI AI-readiness Working Group",
+    "title": "PSI-AI",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The PSI AI-readiness working group bridges the gap between public proteomics data and the use of artificial intelligence. We focus on making proteomics data AI-ready while standardizing AI workflows that generate new data through community standards and reproducible pipelines."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html#mission",
+    "href": "index.html#mission",
+    "title": "PSI-AI",
     "section": "",
-    "text": "About this site"
+    "text": "The PSI AI-readiness working group bridges the gap between public proteomics data and the use of artificial intelligence. We focus on making proteomics data AI-ready while standardizing AI workflows that generate new data through community standards and reproducible pipelines."
+  },
+  {
+    "objectID": "index.html#key-objectives",
+    "href": "index.html#key-objectives",
+    "title": "PSI-AI",
+    "section": "Key Objectives",
+    "text": "Key Objectives\n\n\n📊 Data Accessibility Enhance metadata annotation for AI discoverability\n🔄 Harmonize Raw Data Formats Convert to open formats (mzML, mzPeak)\n⚡ Streamlined Data Reprocessing Lightweight ML-ready data processing workflows\n\n\n🎯 Benchmark Resources Curated datasets and methods for AI development\n📋 Best Practices Ethical and effective reproducibility standards\n🤝 Community Standards AI model frameworks and HUPO-PSI integration"
+  },
+  {
+    "objectID": "index.html#about-this-resource",
+    "href": "index.html#about-this-resource",
+    "title": "PSI-AI",
+    "section": "About This Resource",
+    "text": "About This Resource\nThis site serves as the dynamic hub for PSI-AI working group outputs, including:\n📚 Living Documentation Guidelines and standards that evolve with the field\n📋 Best Practice Guides Crowd-sourced recommendations\n🔗 Curated Links Community-curated resources and tools\n\n\n\n\n\n\nEveryone can contribute!\n\n\n\nWhether through commenting, writing documentation, sharing resources, or joining working groups - this platform thrives on community participation."
+  },
+  {
+    "objectID": "index.html#get-involved",
+    "href": "index.html#get-involved",
+    "title": "PSI-AI",
+    "section": "Get Involved",
+    "text": "Get Involved\n\n\n🤝 Contribute content\n\nSubmit documentation\nShare best practices\nReview community submissions\nProvide feedback\n\n\n\n💬 Join discussions\n\nComment on proposals\nAttend community calls\nParticipate in the working group task forces\nShare project experiences\n\n\n\n\nWays to Participate\n\nWorking Group Charter - Learn about our mission and structure\nCommunity Surveys - Help shape priorities and direction\nCollaborative Writing - Co-author documentation and guidelines\nResource Sharing - Contribute tools, datasets, and workflows\nPeer Review - Help validate and improve community contributions\n\n\n\n\n\n\n\nNote\n\n\n\nReady to Start? Join our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field."
   }
 ]
