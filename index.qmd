@@ -1,7 +1,93 @@
 ---
-title: "HUPO-PSI AI-readiness Working Group"
+title: "PSI-AI"
+subtitle: "Advancing AI-readiness of Public Proteomics Data"
 ---
 
-This is a Quarto website.
+## Mission
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+The PSI AI-readiness working group bridges the gap between public proteomics data and the use of artificial intelligence. We focus on making proteomics data AI-ready while standardizing AI workflows that generate new data through community standards and reproducible pipelines.
+
+## Key Objectives
+
+::: {.grid}
+
+::: {.g-col-6}
+**📊 Data Accessibility**<br/>
+Enhance metadata annotation for AI discoverability
+
+**🔄 Harmonize Raw Data Formats**<br/>
+Convert to open formats (mzML, mzPeak)
+
+**⚡ Streamlined Data Reprocessing**<br/>
+Lightweight ML-ready data processing workflows
+:::
+
+::: {.g-col-6}
+**🎯 Benchmark Resources**<br/>
+Curated datasets and methods for AI development
+
+**📋 Best Practices**<br/>
+Ethical and effective reproducibility standards
+
+**🤝 Community Standards**<br/>
+AI model frameworks and HUPO-PSI integration
+:::
+
+:::
+
+---
+
+## About This Resource
+
+This site serves as the **dynamic hub** for PSI-AI working group outputs, including:
+
+📚 **Living Documentation**<br/>
+Guidelines and standards that evolve with the field
+
+📋 **Best Practice Guides**<br/>
+Crowd-sourced recommendations
+
+🔗 **Curated Links**<br/>
+Community-curated resources and tools
+
+::: {.callout-note}
+## Everyone can contribute!
+Whether through commenting, writing documentation, sharing resources, or joining working groups - this platform thrives on community participation.
+:::
+
+## Get Involved
+
+::: {.grid}
+
+::: {.g-col-6}
+**🤝 Contribute content**
+
+- Submit documentation
+- Share best practices
+- Review community submissions
+- Provide feedback
+
+:::
+
+::: {.g-col-6}
+**💬 Join discussions**
+
+- Comment on proposals
+- Attend community calls
+- Participate in the working group task forces
+- Share project experiences
+:::
+
+:::
+
+### Ways to Participate
+
+- **[Working Group Charter](charter.html)** - Learn about our mission and structure
+- **Community Surveys** - Help shape priorities and direction
+- **Collaborative Writing** - Co-author documentation and guidelines
+- **Resource Sharing** - Contribute tools, datasets, and workflows
+- **Peer Review** - Help validate and improve community contributions
+
+::: {.callout-note}
+**Ready to Start?** Join our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field.
+:::
