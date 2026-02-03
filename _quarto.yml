@@ -12,11 +12,24 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: who-are-we/index.qmd
+        text: Who are we?
+      - href: charter/index.qmd
+        text: Charter
+      - href: blog/index.qmd
+        text: Blog
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - zephyr
     css: styles.css
     toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true
+    email-obfuscation: javascript
+    lang: en-US
+    dir: ltr
+    copyright: "HUPO-PSI AI-readiness Working Group"
+    license: CC BY 4.0

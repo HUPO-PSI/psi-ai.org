@@ -1,0 +1,60 @@
+---
+team:
+  - chairs:
+    - image: img/people/tine-claeys.png
+      name: Tine Claeys
+      description: VIB / Ghent University (BE)
+    - image: img/people/samuel-wein.png
+      name: Samuel Wein
+      description: University of Tübingen / OpenMS (DE)
+    - image: img/people/ralf-gabriels.png
+      name: Ralf Gabriels
+      description: VIB / Ghent University (BE)
+
+  - members:
+    - image: img/people/ben-neely.png
+      name: Ben Neely
+      description: National Institute of Standards and Technology (US)
+    - image: img/people/ina-devos.png
+      name: Ina Devos
+      description: University of Antwerp / VITO (BE)
+    - image: img/people/jonas-scheid.png
+      name: Jonas Scheid
+      description: University Hospital Tübingen (DE)
+    - image: img/people/kevin-yang.png
+      name: Kevin Yang
+      description: University of Michigan (US)
+    - image: img/people/lisa-boatner.png
+      name: Lisa Boatner
+      description: Chan Zuckerberg Initiative (US)
+    - image: img/people/parag-mallick.png
+      name: Parag Mallick
+      description: Stanford University / Nautilus Biotechnology (US)
+    - image: img/people/patricia-cervera-de-la-cruz.png
+      name: Patricia Cervera de la Cruz
+      description: PHG Foundation (UK) / Ghent University (BE)
+    - image: img/people/thomas-naake.png
+      name: Thomas Naake
+      description: National Metrology Institute (DE)
+filters:
+  - team
+---
+
+# Co-chairs
+
+PSI-AI is led by a team of co-chairs who coordinate the working group's strategy, prioritization, and delivery across the HUPO-PSI community. They ensure alignment with other PSI working groups and external stakeholders, and facilitate consensus on standards, guidelines, and resources that make proteomics data and workflows fit for modern AI/ML use.
+
+{{< team chairs >}}
+
+
+# Members
+
+PSI-AI members form an international, cross-disciplinary community spanning proteomics standards development, computational proteomics, software engineering, repositories, benchmarking and reporting, curated dataset development, and ethics and privacy expertise to ensure interoperable, reproducible, compliant, and AI-ready proteomics.
+
+{{< team members >}}
+
+PSI-AI is strengthened by many additional contributors across the wider proteomics and data standards community whose insights and efforts support this work, even if they are not individually shown here.
+
+# Join PSI-AI
+
+PSI-AI welcomes participation from the wider community, including researchers, tool developers, repository teams, standards contributors, and ethics and legal experts. To get involved, please contact us at [info@psi-ai.org](mailto:info@psi-ai.org).

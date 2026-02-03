@@ -1,0 +1,31 @@
+---
+date-modified: "2025-06-13"
+---
+
+# AI-readiness working group charter
+
+## Administrative Section
+
+- **Status (New/Update):** New
+- **Group Name:** HUPO-PSI AI-readiness Working Group
+- **Chair:** [Tine Claeys](mailto:tineclae.claeys@ugent.be), VIB - Ghent University, Ghent, Belgium
+- **Co-Chairs:**
+    - [Samuel Wein](mailto:samuel.wein@uni-tuebingen.de), University of Tübingen –  OpenMS, Tübingen, Germany
+    - [Ralf Gabriels](mailto:ralf.gabriels@ugent.be), Ghent University – VIB, Ghent, Belgium
+- **Secretary:** *Vacant*
+
+
+## Description and Objectives
+
+### Focus and Purpose
+
+The goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure.
+
+### Goals/Milestones
+
+- **Goal 1:** Publish a review on good reprocessing practices in large-scale proteomics
+- **Goal 2:** Curate a benchmark corpus of selected public datasets in homogeneous format
+- **Goal 3:** Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline
+- **Goal 4:** Development of a community-driven and open-access reprocessing workflow
+- **Goal 5:** Collaborate with existing benchmarking community efforts such as Proteobench to benchmark AI pipelines
+- **Goal 6:** Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics
