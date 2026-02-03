@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.psi-ai.org/charter/index.html</loc>
+    <lastmod>2026-02-03T15:17:52.585Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.psi-ai.org/index.html</loc>
-    <lastmod>2025-07-29T15:18:29.303Z</lastmod>
+    <lastmod>2026-02-03T15:17:52.585Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.psi-ai.org/who-are-we/index.html</loc>
+    <lastmod>2026-02-03T15:17:52.596Z</lastmod>
   </url>
 </urlset>

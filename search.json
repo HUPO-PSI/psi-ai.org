@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "charter/index.html",
+    "href": "charter/index.html",
+    "title": "AI-readiness working group charter",
+    "section": "",
+    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant\n\n\n\n\n\n\nThe goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure.\n\n\n\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as Proteobench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
+  },
+  {
+    "objectID": "charter/index.html#administrative-section",
+    "href": "charter/index.html#administrative-section",
+    "title": "AI-readiness working group charter",
+    "section": "",
+    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant"
+  },
+  {
+    "objectID": "charter/index.html#description-and-objectives",
+    "href": "charter/index.html#description-and-objectives",
+    "title": "AI-readiness working group charter",
+    "section": "",
+    "text": "The goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure.\n\n\n\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as Proteobench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "PSI-AI",
@@ -25,7 +46,7 @@
     "href": "index.html#about-this-resource",
     "title": "PSI-AI",
     "section": "About This Resource",
-    "text": "About This Resource\nThis site serves as the dynamic hub for PSI-AI working group outputs, including:\n📚 Living Documentation Guidelines and standards that evolve with the field\n📋 Best Practice Guides Crowd-sourced recommendations\n🔗 Curated Links Community-curated resources and tools\n\n\n\n\n\n\nEveryone can contribute!\n\n\n\nWhether through commenting, writing documentation, sharing resources, or joining working groups - this platform thrives on community participation."
+    "text": "About This Resource\nThis site serves as the dynamic hub for PSI-AI working group outputs, including:\n📚 Living Documentation Guidelines and standards that evolve with the field\n📋 Best Practice Guides Crowd-sourced recommendations\n🔗 Curated Links Community-curated resources and tools\n\n\n\n\n\n\nNoteEveryone can contribute!\n\n\n\nWhether through commenting, writing documentation, sharing resources, or joining working groups - this platform thrives on community participation."
   },
   {
     "objectID": "index.html#get-involved",
@@ -33,5 +54,12 @@
     "title": "PSI-AI",
     "section": "Get Involved",
     "text": "Get Involved\n\n\n🤝 Contribute content\n\nSubmit documentation\nShare best practices\nReview community submissions\nProvide feedback\n\n\n\n💬 Join discussions\n\nComment on proposals\nAttend community calls\nParticipate in the working group task forces\nShare project experiences\n\n\n\n\nWays to Participate\n\nWorking Group Charter - Learn about our mission and structure\nCommunity Surveys - Help shape priorities and direction\nCollaborative Writing - Co-author documentation and guidelines\nResource Sharing - Contribute tools, datasets, and workflows\nPeer Review - Help validate and improve community contributions\n\n\n\n\n\n\n\nNote\n\n\n\nReady to Start? Join our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field."
+  },
+  {
+    "objectID": "who-are-we/index.html",
+    "href": "who-are-we/index.html",
+    "title": "Co-chairs",
+    "section": "",
+    "text": "Co-chairs\nPSI-AI is led by a team of co-chairs who coordinate the working group’s strategy, prioritization, and delivery across the HUPO-PSI community. They ensure alignment with other PSI working groups and external stakeholders, and facilitate consensus on standards, guidelines, and resources that make proteomics data and workflows fit for modern AI/ML use.\n\n\n\n\n\n\n\nTine Claeys\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nSamuel Wein\n\nUniversity of Tübingen / OpenMS (DE)\n\n\n\n\n\n\nRalf Gabriels\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nMembers\nPSI-AI members form an international, cross-disciplinary community spanning proteomics standards development, computational proteomics, software engineering, repositories, benchmarking and reporting, curated dataset development, and ethics and privacy expertise to ensure interoperable, reproducible, compliant, and AI-ready proteomics.\n\n\n\n\n\n\n\nBen Neely\n\nNational Institute of Standards and Technology (US)\n\n\n\n\n\n\nIna Devos\n\nUniversity of Antwerp / VITO (BE)\n\n\n\n\n\n\nJonas Scheid\n\nUniversity Hospital Tübingen (DE)\n\n\n\n\n\n\nKevin Yang\n\nUniversity of Michigan (US)\n\n\n\n\n\n\nLisa Boatner\n\nChan Zuckerberg Initiative (US)\n\n\n\n\n\n\nParag Mallick\n\nStanford University / Nautilus Biotechnology (US)\n\n\n\n\n\n\nPatricia Cervera de la Cruz\n\nPHG Foundation (UK) / Ghent University (BE)\n\n\n\n\n\n\nThomas Naake\n\nNational Metrology Institute (DE)\n\n\n\n\nPSI-AI is strengthened by many additional contributors across the wider proteomics and data standards community whose insights and efforts support this work, even if they are not individually shown here.\n\n\nJoin PSI-AI\nPSI-AI welcomes participation from the wider community, including researchers, tool developers, repository teams, standards contributors, and ethics and legal experts. To get involved, please contact us at info at psi-ai dot org.\n\n\n\n\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
   }
 ]
