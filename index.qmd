@@ -1,36 +1,38 @@
 ---
 title: "PSI-AI"
-subtitle: "Advancing AI-readiness of Public Proteomics Data"
+subtitle: "Advancing AI-readiness of Proteomics Data"
+title-block-banner: true
+
 ---
 
 ## Mission
 
-The PSI AI-readiness working group bridges the gap between public proteomics data and the use of artificial intelligence. We focus on making proteomics data AI-ready while standardizing AI workflows that generate new data through community standards and reproducible pipelines.
+The HUPO-PSI AI-readiness Working Group bridges the gap between proteomics data and the use of artificial intelligence. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure and community efforts.
 
 ## Key Objectives
 
 ::: {.grid}
 
 ::: {.g-col-6}
-**📊 Data Accessibility**<br/>
+**📊 Data accessibility**<br/>
 Enhance metadata annotation for AI discoverability
 
-**🔄 Harmonize Raw Data Formats**<br/>
-Convert to open formats (mzML, mzPeak)
+**🔄 Harmonized data formats**<br/>
+Endorse open formats like mzML & mzPeak
 
-**⚡ Streamlined Data Reprocessing**<br/>
-Lightweight ML-ready data processing workflows
+**⚡ Streamlined data reprocessing**<br/>
+Promote ML-ready data processing workflows
 :::
 
 ::: {.g-col-6}
-**🎯 Benchmark Resources**<br/>
-Curated datasets and methods for AI development
+**🎯 Benchmark resources**<br/>
+Curate datasets and evaluation methods for AI development
 
-**📋 Best Practices**<br/>
-Ethical and effective reproducibility standards
+**📋 Best practices**<br/>
+Ensure ethical and effective workflows
 
-**🤝 Community Standards**<br/>
-AI model frameworks and HUPO-PSI integration
+**🤝 Community building**<br/>
+Integrate existing community efforts
 :::
 
 :::
@@ -49,6 +51,9 @@ Crowd-sourced recommendations
 
 🔗 **Curated Links**<br/>
 Community-curated resources and tools
+
+📰 **Blog & News**<br/>
+Updates and insights from the community
 
 ::: {.callout-note}
 ## Everyone can contribute!
@@ -72,22 +77,14 @@ Whether through commenting, writing documentation, sharing resources, or joining
 ::: {.g-col-6}
 **💬 Join discussions**
 
-- Comment on proposals
 - Attend community calls
 - Participate in the working group task forces
+- Comment on proposals
 - Share project experiences
 :::
 
 :::
 
-### Ways to Participate
-
-- **[Working Group Charter](charter.html)** - Learn about our mission and structure
-- **Community Surveys** - Help shape priorities and direction
-- **Collaborative Writing** - Co-author documentation and guidelines
-- **Resource Sharing** - Contribute tools, datasets, and workflows
-- **Peer Review** - Help validate and improve community contributions
-
 ::: {.callout-note}
-**Ready to Start?** Join our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field.
+**Ready to Start?** Join our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field. To get involved, please contact us at [info@psi-ai.org](mailto:info@psi-ai.org).
 :::

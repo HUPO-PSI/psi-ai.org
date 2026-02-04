@@ -27,5 +27,5 @@ The goal of the PSI-AI working group is to bridge the gap between artificial int
 - **Goal 2:** Curate a benchmark corpus of selected public datasets in homogeneous format
 - **Goal 3:** Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline
 - **Goal 4:** Development of a community-driven and open-access reprocessing workflow
-- **Goal 5:** Collaborate with existing benchmarking community efforts such as Proteobench to benchmark AI pipelines
+- **Goal 5:** Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines
 - **Goal 6:** Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics

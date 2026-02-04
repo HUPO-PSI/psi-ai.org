@@ -7,6 +7,8 @@ website:
   site-url: https://www.psi-ai.org
   repo-url: https://github.com/hupo-psi/psi-ai.org
   repo-branch: main
+  open-graph:
+    locale: en_US
 
   navbar:
     left:
