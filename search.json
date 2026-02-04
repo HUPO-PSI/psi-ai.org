@@ -74,14 +74,14 @@
     "href": "blog/posts/2026-02-04-hupo-workshop/index.html",
     "title": "HUPO 2025 workshop: What AI-ready proteomics data should look like",
     "section": "",
-    "text": "At the HUPO 2025 Bioinformatics Hub session on proteomics AI-readiness, participants split into three parallel discussions: quantification, raw data, and identification, to identify the main hurdles for data reuse within their respective group. This discussion would serve as a practical guide for PSI-AI’s next steps. The consistent theme was that AI-readiness is primarily a data engineering and standards problem: structured data representations, explicit provenance, and machine-checkable metadata matter at least as much as AI model development itself.\n\n\n\n\nHUPO 2025 Bioinformatics Hub, 11 November 2025"
+    "text": "At the HUPO 2025 Bioinformatics Hub session on proteomics AI-readiness, participants split into three parallel discussions: quantification, raw data, and identification, to identify the main hurdles for data reuse within their respective groups. This discussion would serve as a practical guide for PSI-AI’s next steps. The consistent theme was that AI-readiness is primarily a data engineering and standards problem: structured data representations, explicit provenance, and machine-checkable metadata matter at least as much as AI model development itself.\n\n\n\n\nHUPO 2025 Bioinformatics Hub, 11 November 2025"
   },
   {
     "objectID": "blog/posts/2026-02-04-hupo-workshop/index.html#introduction",
     "href": "blog/posts/2026-02-04-hupo-workshop/index.html#introduction",
     "title": "HUPO 2025 workshop: What AI-ready proteomics data should look like",
     "section": "",
-    "text": "At the HUPO 2025 Bioinformatics Hub session on proteomics AI-readiness, participants split into three parallel discussions: quantification, raw data, and identification, to identify the main hurdles for data reuse within their respective group. This discussion would serve as a practical guide for PSI-AI’s next steps. The consistent theme was that AI-readiness is primarily a data engineering and standards problem: structured data representations, explicit provenance, and machine-checkable metadata matter at least as much as AI model development itself.\n\n\n\n\nHUPO 2025 Bioinformatics Hub, 11 November 2025"
+    "text": "At the HUPO 2025 Bioinformatics Hub session on proteomics AI-readiness, participants split into three parallel discussions: quantification, raw data, and identification, to identify the main hurdles for data reuse within their respective groups. This discussion would serve as a practical guide for PSI-AI’s next steps. The consistent theme was that AI-readiness is primarily a data engineering and standards problem: structured data representations, explicit provenance, and machine-checkable metadata matter at least as much as AI model development itself.\n\n\n\n\nHUPO 2025 Bioinformatics Hub, 11 November 2025"
   },
   {
     "objectID": "blog/posts/2026-02-04-hupo-workshop/index.html#raw-data-define-mzpeak-minimum-information-so-reprocessing-is-feasible",
