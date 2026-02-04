@@ -1,4 +1,7 @@
 ---
+title: Who are we?
+title-block-banner: true
+
 team:
   - chairs:
     - image: img/people/tine-claeys.png
@@ -12,9 +15,15 @@ team:
       description: VIB / Ghent University (BE)
 
   - members:
+    - image: img/people/ahmad-lutfi.png
+      name: Ahmad Lutfi
+      description: Technische Universität Berlin (DE)
     - image: img/people/ben-neely.png
       name: Ben Neely
       description: National Institute of Standards and Technology (US)
+    - image: img/people/charlotte-adams.png
+      name: Charlotte Adams
+      description: University of Antwerp (BE)
     - image: img/people/ina-devos.png
       name: Ina Devos
       description: University of Antwerp / VITO (BE)
@@ -27,6 +36,9 @@ team:
     - image: img/people/lisa-boatner.png
       name: Lisa Boatner
       description: Chan Zuckerberg Initiative (US)
+    - image: img/people/magnus-palmblad.png
+      name: Magnus Palmblad
+      description: Leiden University Medical Center (NL)
     - image: img/people/parag-mallick.png
       name: Parag Mallick
       description: Stanford University / Nautilus Biotechnology (US)

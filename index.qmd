@@ -86,5 +86,6 @@ Whether through commenting, writing documentation, sharing resources, or joining
 :::
 
 ::: {.callout-note}
-**Ready to Start?** Join our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field. To get involved, please contact us at [info@psi-ai.org](mailto:info@psi-ai.org).
+## Ready to start?
+Join our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field. To get involved, please contact us at [info@psi-ai.org](mailto:info@psi-ai.org).
 :::

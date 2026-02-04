@@ -1,10 +1,10 @@
 ---
+title: Working group charter
+title-block-banner: true
 date-modified: "2025-06-13"
 ---
 
-# AI-readiness working group charter
-
-## Administrative Section
+# Administrative Section
 
 - **Status (New/Update):** New
 - **Group Name:** HUPO-PSI AI-readiness Working Group
@@ -15,13 +15,13 @@ date-modified: "2025-06-13"
 - **Secretary:** *Vacant*
 
 
-## Description and Objectives
+# Description and Objectives
 
-### Focus and Purpose
+## Focus and Purpose
 
 The goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure.
 
-### Goals/Milestones
+## Goals/Milestones
 
 - **Goal 1:** Publish a review on good reprocessing practices in large-scale proteomics
 - **Goal 2:** Curate a benchmark corpus of selected public datasets in homogeneous format
