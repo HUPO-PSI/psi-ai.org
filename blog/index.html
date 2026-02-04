@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – PSI-AI</title>
+<title>Blog – PSI-AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -41,7 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-0b90554db41e1e94df75aa9c52e681fd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/team/team.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,23 +70,81 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="PSI-AI">
-<meta property="og:description" content="HUPO-PSI AI-readiness Working Group">
-<meta property="og:image" content="https://www.psi-ai.org/who-are-we/img/people/tine-claeys.png">
+<link rel="alternate" type="application/rss+xml" title="PSI-AI" href="index.xml" data-external="1"><meta property="og:title" content="Blog – PSI-AI">
+<meta property="og:description" content="Updates, insights, and news from the PSI-AI community">
+<meta property="og:image" content="https://www.psi-ai.org/blog/posts/2026-02-04-hupo-workshop/featured.png">
 <meta property="og:site_name" content="PSI-AI">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="480">
-<meta property="og:image:width" content="480">
+<meta property="og:image:height" content="773">
+<meta property="og:image:width" content="1375">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -104,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../who-are-we/index.html" aria-current="page"> 
+    <a class="nav-link" href="../who-are-we/index.html"> 
 <span class="menu-text">Who are we?</span></a>
   </li>  
   <li class="nav-item">
@@ -112,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Charter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -123,157 +182,101 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog</h1>
+            <p class="subtitle lead">Updates, insights, and news from the PSI-AI community</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#co-chairs" id="toc-co-chairs" class="nav-link active" data-scroll-target="#co-chairs">Co-chairs</a></li>
-  <li><a href="#members" id="toc-members" class="nav-link" data-scroll-target="#members">Members</a></li>
-  <li><a href="#join-psi-ai" id="toc-join-psi-ai" class="nav-link" data-scroll-target="#join-psi-ai">Join PSI-AI</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29tbXVuaXR5">community <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3A=">workshop <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<section id="co-chairs" class="level1">
-<h1>Co-chairs</h1>
-<p>PSI-AI is led by a team of co-chairs who coordinate the working group’s strategy, prioritization, and delivery across the HUPO-PSI community. They ensure alignment with other PSI working groups and external stakeholders, and facilitate consensus on standards, guidelines, and resources that make proteomics data and workflows fit for modern AI/ML use.</p>
-<p></p><div id="quarto-team-chairs" class="quarto-team">
-<div class="team-parent">
-<div class="team-child">
-<div>
-<img src="img/people/tine-claeys.png">
-</div>
-<div class="name">
-Tine Claeys</div>
-<div class="description">
-VIB / Ghent University (BE)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/samuel-wein.png">
-</div>
-<div class="name">
-Samuel Wein</div>
-<div class="description">
-University of Tübingen / OpenMS (DE)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/ralf-gabriels.png">
-</div>
-<div class="name">
-Ralf Gabriels</div>
-<div class="description">
-VIB / Ghent University (BE)</div>
-</div>
-</div>
-</div>
-<p></p>
-</section>
-<section id="members" class="level1">
-<h1>Members</h1>
-<p>PSI-AI members form an international, cross-disciplinary community spanning proteomics standards development, computational proteomics, software engineering, repositories, benchmarking and reporting, curated dataset development, and ethics and privacy expertise to ensure interoperable, reproducible, compliant, and AI-ready proteomics.</p>
-<p></p><div id="quarto-team-members" class="quarto-team">
-<div class="team-parent">
-<div class="team-child">
-<div>
-<img src="img/people/ben-neely.png">
-</div>
-<div class="name">
-Ben Neely</div>
-<div class="description">
-National Institute of Standards and Technology (US)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/ina-devos.png">
-</div>
-<div class="name">
-Ina Devos</div>
-<div class="description">
-University of Antwerp / VITO (BE)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/jonas-scheid.png">
-</div>
-<div class="name">
-Jonas Scheid</div>
-<div class="description">
-University Hospital Tübingen (DE)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/kevin-yang.png">
-</div>
-<div class="name">
-Kevin Yang</div>
-<div class="description">
-University of Michigan (US)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/lisa-boatner.png">
-</div>
-<div class="name">
-Lisa Boatner</div>
-<div class="description">
-Chan Zuckerberg Initiative (US)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/parag-mallick.png">
-</div>
-<div class="name">
-Parag Mallick</div>
-<div class="description">
-Stanford University / Nautilus Biotechnology (US)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/patricia-cervera-de-la-cruz.png">
-</div>
-<div class="name">
-Patricia Cervera de la Cruz</div>
-<div class="description">
-PHG Foundation (UK) / Ghent University (BE)</div>
-</div>
-<div class="team-child">
-<div>
-<img src="img/people/thomas-naake.png">
-</div>
-<div class="name">
-Thomas Naake</div>
-<div class="description">
-National Metrology Institute (DE)</div>
-</div>
-</div>
-</div>
-<p></p>
-<p>PSI-AI is strengthened by many additional contributors across the wider proteomics and data standards community whose insights and efforts support this work, even if they are not individually shown here.</p>
-</section>
-<section id="join-psi-ai" class="level1">
-<h1>Join PSI-AI</h1>
-<p>PSI-AI welcomes participation from the wider community, including researchers, tool developers, repository teams, standards contributors, and ethics and legal experts. To get involved, please contact us at <script type="text/javascript">
-<!--
-h='&#112;&#x73;&#x69;&#x2d;&#x61;&#x69;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x69;&#110;&#102;&#x6f;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>info at psi-ai dot org</noscript>.</p>
 
 
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.en_us">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div class="quarto-appendix-contents"><div>HUPO-PSI AI-readiness Working Group</div></div></section></div></main> <!-- /main -->
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Y29tbXVuaXR5JTJDd29ya3Nob3A=" data-listing-date-sort="1770163200000" data-listing-file-modified-sort="1770210247131" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="894">
+<a href="../blog/posts/2026-02-04-hupo-workshop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../blog/posts/2026-02-04-hupo-workshop/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HUPO 2025 workshop: What AI-ready proteomics data should look like
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tbXVuaXR5'); return false;">community</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Recap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ralf Gabriels, Samuel Wein, Tine Claeys
+</div>
+<div class="listing-date">
+Feb 4, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.en_us">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div class="quarto-appendix-contents"><div>HUPO-PSI AI-readiness Working Group</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
