@@ -29,7 +29,7 @@ citation: true
 
 ## Introduction
 
-At the HUPO 2025 Bioinformatics Hub session on proteomics AI-readiness, participants split into three parallel discussions: *quantification*, *raw data*, and *identification*, to identify the main hurdles for data reuse within their respective group. This discussion would serve as a practical guide for PSI-AI’s next steps. The consistent theme was that AI-readiness is primarily a data engineering and standards problem: structured data representations, explicit provenance, and machine-checkable metadata matter at least as much as AI model development itself.
+At the HUPO 2025 Bioinformatics Hub session on proteomics AI-readiness, participants split into three parallel discussions: *quantification*, *raw data*, and *identification*, to identify the main hurdles for data reuse within their respective groups. This discussion would serve as a practical guide for PSI-AI’s next steps. The consistent theme was that AI-readiness is primarily a data engineering and standards problem: structured data representations, explicit provenance, and machine-checkable metadata matter at least as much as AI model development itself.
 
 :::{.column-body-outset}
 ![HUPO 2025 Bioinformatics Hub, 11 November 2025](featured.png)
