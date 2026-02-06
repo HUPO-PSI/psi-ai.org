@@ -30,6 +30,12 @@ team:
     - image: img/people/jonas-scheid.png
       name: Jonas Scheid
       description: University Hospital Tübingen (DE)
+    - image: img/people/julian-uszkoreit.png
+      name: Julian Uszkoreit
+      description: Ruhr University Bochum (DE)
+    - image: img/people/karin-schork.png
+      name: Karin Schork
+      description: Ruhr University Bochum (DE)
     - image: img/people/kevin-yang.png
       name: Kevin Yang
       description: University of Michigan (US)
@@ -39,6 +45,9 @@ team:
     - image: img/people/magnus-palmblad.png
       name: Magnus Palmblad
       description: Leiden University Medical Center (NL)
+    - image: img/people/maike-weber.png
+      name: Maike Weber
+      description: Ruhr University Bochum (DE)
     - image: img/people/parag-mallick.png
       name: Parag Mallick
       description: Stanford University / Nautilus Biotechnology (US)
