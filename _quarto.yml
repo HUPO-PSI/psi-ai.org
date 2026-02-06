@@ -35,3 +35,6 @@ format:
     dir: ltr
     copyright: "HUPO-PSI AI-readiness Working Group"
     license: CC BY 4.0
+    include-in-header:
+      - text: |
+          <script defer src="https://umami.compomics.com/script.js" data-website-id="16eced73-6978-4fad-ad98-ce3940e1f935"></script>
