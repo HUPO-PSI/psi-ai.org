@@ -24,6 +24,9 @@ team:
     - image: img/people/charlotte-adams.png
       name: Charlotte Adams
       description: University of Antwerp (BE)
+    - image: img/people/henry-webel.png
+      name: Henry Webel
+      description: Technical University of Denmark (DK)
     - image: img/people/ina-devos.png
       name: Ina Devos
       description: University of Antwerp / VITO (BE)
