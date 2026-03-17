@@ -21,6 +21,9 @@ team:
     - image: img/people/ben-neely.png
       name: Ben Neely
       description: National Institute of Standards and Technology (US)
+    - image: img/people/caroline-jachmann.png
+      name: Caroline Jachmann
+      description: VIB / Ghent University (BE)
     - image: img/people/charlotte-adams.png
       name: Charlotte Adams
       description: University of Antwerp (BE)
