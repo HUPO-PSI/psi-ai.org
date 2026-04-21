@@ -15,8 +15,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: who-are-we/index.qmd
-        text: Who are we?
+      - href: members/index.qmd
+        text: Members
       - href: charter/index.qmd
         text: Charter
       - href: blog/index.qmd
