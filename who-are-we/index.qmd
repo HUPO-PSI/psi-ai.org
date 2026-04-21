@@ -60,6 +60,9 @@ team:
     - image: img/people/patricia-cervera-de-la-cruz.png
       name: Patricia Cervera de la Cruz
       description: PHG Foundation (UK) / Ghent University (BE)
+    - image: who-are-we/img/people/shih-yi-winnie-hsiung.png
+      name: Shih-Yi (Winnie) Hsiung
+      description: Soka University (Japan) / Taipei Medical University (Taiwan)
     - image: img/people/thomas-naake.png
       name: Thomas Naake
       description: National Metrology Institute (DE)
