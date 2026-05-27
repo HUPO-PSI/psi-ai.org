@@ -6,13 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tine Claeys">
 <meta name="author" content="Ralf Gabriels">
 <meta name="author" content="Samuel Wein">
-<meta name="author" content="Tine Claeys">
-<meta name="dcterms.date" content="2026-02-04">
-<meta name="description" content="Recap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.">
+<meta name="dcterms.date" content="2026-05-27">
+<meta name="description" content="A recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across the proteomics data lifecycle.">
 
-<title>HUPO 2025 workshop: What AI-ready proteomics data should look like – PSI-AI</title>
+<title>PSI-AI in Rome: Setting the scaffolds of AI-readiness – PSI-AI</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -99,13 +99,13 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="HUPO 2025 workshop: What AI-ready proteomics data should look like – PSI-AI">
-<meta property="og:description" content="Recap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.">
-<meta property="og:image" content="https://www.psi-ai.org/blog/posts/2026-02-04-hupo-workshop/featured.png">
+<meta property="og:title" content="PSI-AI in Rome: Setting the scaffolds of AI-readiness – PSI-AI">
+<meta property="og:description" content="A recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across the proteomics data lifecycle.">
+<meta property="og:image" content="https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/featured.png">
 <meta property="og:site_name" content="PSI-AI">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="773">
-<meta property="og:image:width" content="1375">
+<meta property="og:image:height" content="720">
+<meta property="og:image:width" content="1280">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -158,10 +158,17 @@ div.csl-indent {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#raw-data-define-mzpeak-minimum-information-so-reprocessing-is-feasible" id="toc-raw-data-define-mzpeak-minimum-information-so-reprocessing-is-feasible" class="nav-link" data-scroll-target="#raw-data-define-mzpeak-minimum-information-so-reprocessing-is-feasible">Raw data: define “mzPeak minimum information” so reprocessing is feasible</a></li>
-  <li><a href="#identification-improve-interpretability-of-peptidoforms-scores-and-spectrum-links" id="toc-identification-improve-interpretability-of-peptidoforms-scores-and-spectrum-links" class="nav-link" data-scroll-target="#identification-improve-interpretability-of-peptidoforms-scores-and-spectrum-links">Identification: improve interpretability of peptidoforms, scores, and spectrum links</a></li>
-  <li><a href="#quantification-an-mzquant-container-that-records-how-numbers-were-produced" id="toc-quantification-an-mzquant-container-that-records-how-numbers-were-produced" class="nav-link" data-scroll-target="#quantification-an-mzquant-container-that-records-how-numbers-were-produced">Quantification: An “mzQuant” container that records <em>how numbers were produced</em></a></li>
-  <li><a href="#what-psi-ai-takes-forward" id="toc-what-psi-ai-takes-forward" class="nav-link" data-scroll-target="#what-psi-ai-takes-forward">What PSI-AI takes forward</a></li>
+  <li><a href="#a-recap-of-the-psi-ai-sessions" id="toc-a-recap-of-the-psi-ai-sessions" class="nav-link" data-scroll-target="#a-recap-of-the-psi-ai-sessions">A recap of the PSI-AI sessions</a>
+  <ul class="collapse">
+  <li><a href="#hands-on-training-in-reprocessing-public-proteomics-data" id="toc-hands-on-training-in-reprocessing-public-proteomics-data" class="nav-link" data-scroll-target="#hands-on-training-in-reprocessing-public-proteomics-data">Hands-on training in reprocessing public proteomics data</a></li>
+  <li><a href="#ai-as-a-new-layer-on-existing-psi-standards" id="toc-ai-as-a-new-layer-on-existing-psi-standards" class="nav-link" data-scroll-target="#ai-as-a-new-layer-on-existing-psi-standards">AI as a new layer on existing PSI standards</a></li>
+  <li><a href="#adapting-anndata-for-proteomics-with-psi-ai-and-scverse" id="toc-adapting-anndata-for-proteomics-with-psi-ai-and-scverse" class="nav-link" data-scroll-target="#adapting-anndata-for-proteomics-with-psi-ai-and-scverse">Adapting AnnData for proteomics with PSI-AI and scverse</a></li>
+  <li><a href="#mzpeak-is-a-faster-alternative-to-mzml-for-upstream-data-access" id="toc-mzpeak-is-a-faster-alternative-to-mzml-for-upstream-data-access" class="nav-link" data-scroll-target="#mzpeak-is-a-faster-alternative-to-mzml-for-upstream-data-access">mzPeak is a faster alternative to mzML for upstream data access</a></li>
+  <li><a href="#automated-metadata-extraction-from-raw-files-and-publications" id="toc-automated-metadata-extraction-from-raw-files-and-publications" class="nav-link" data-scroll-target="#automated-metadata-extraction-from-raw-files-and-publications">Automated metadata extraction from raw files and publications</a></li>
+  <li><a href="#toward-a-practical-checklist-for-ai-in-proteomics" id="toc-toward-a-practical-checklist-for-ai-in-proteomics" class="nav-link" data-scroll-target="#toward-a-practical-checklist-for-ai-in-proteomics">Toward a practical checklist for AI in proteomics</a></li>
+  <li><a href="#responsible-ai-across-the-proteomics-data-lifecycle" id="toc-responsible-ai-across-the-proteomics-data-lifecycle" class="nav-link" data-scroll-target="#responsible-ai-across-the-proteomics-data-lifecycle">Responsible AI across the proteomics data lifecycle</a></li>
+  </ul></li>
+  <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking ahead…</a></li>
   </ul>
 </nav>
     </div>
@@ -170,8 +177,8 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">HUPO 2025 workshop: What AI-ready proteomics data should look like</h1>
-<p class="subtitle lead">A recap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness</p>
+<h1 class="title">PSI-AI in Rome: Setting the scaffolds of AI-readiness</h1>
+<p class="subtitle lead">A recap of the HUPO-PSI Spring Meeting 2026 sessions on AI-readiness</p>
   <div class="quarto-categories">
     <div class="quarto-category">community</div>
     <div class="quarto-category">workshop</div>
@@ -180,7 +187,7 @@ div.csl-indent {
 
 <div>
   <div class="description">
-    Recap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.
+    A recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across the proteomics data lifecycle.
   </div>
 </div>
 
@@ -188,6 +195,17 @@ div.csl-indent {
   <div class="quarto-title-meta-heading">Authors</div>
   <div class="quarto-title-meta-heading">Affiliations</div>
   
+    <div class="quarto-title-meta-contents">
+    <p class="author">Tine Claeys <a href="https://orcid.org/0000-0001-9408-488X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            VIB-UGent Center for Medical Biotechnology, VIB, Belgium
+          </p>
+        <p class="affiliation">
+            Department of Biomolecular Medicine, Ghent University, Belgium
+          </p>
+      </div>
     <div class="quarto-title-meta-contents">
     <p class="author">Ralf Gabriels <a href="https://orcid.org/0000-0002-1679-1711" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
@@ -210,17 +228,6 @@ div.csl-indent {
             OpenMS
           </p>
       </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Tine Claeys <a href="https://orcid.org/0000-0001-9408-488X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            VIB-UGent Center for Medical Biotechnology, VIB, Belgium
-          </p>
-        <p class="affiliation">
-            Department of Biomolecular Medicine, Ghent University, Belgium
-          </p>
-      </div>
   </div>
 
 <div class="quarto-title-meta">
@@ -229,7 +236,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 4, 2026</p>
+      <p class="date">May 27, 2026</p>
     </div>
   </div>
   
@@ -243,79 +250,82 @@ div.csl-indent {
 
 <section id="introduction" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>At the HUPO 2025 Bioinformatics Hub session on proteomics AI-readiness, participants split into three parallel discussions: <em>quantification</em>, <em>raw data</em>, and <em>identification</em>, to identify the main hurdles for data reuse within their respective groups. This discussion would serve as a practical guide for PSI-AI’s next steps. The consistent theme was that AI-readiness is primarily a data engineering and standards problem: structured data representations, explicit provenance, and machine-checkable metadata matter at least as much as AI model development itself.</p>
+<p>The HUPO-PSI <span class="citation" data-cites="Deutsch2023">(<a href="#ref-Deutsch2023" role="doc-biblioref">Deutsch et al. 2023</a>)</span> AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.</p>
 <div class="page-columns page-full">
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p class="page-columns page-full"><img src="featured.png" class="img-fluid figure-img column-body-outset"></p>
-<figcaption>HUPO 2025 Bioinformatics Hub, 11 November 2025</figcaption>
+<p class="page-columns page-full"><img src="group-picture.png" class="img-fluid figure-img column-body-outset"></p>
+<figcaption>Group picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)</figcaption>
 </figure>
 </div>
 </div>
 </section>
-<section id="raw-data-define-mzpeak-minimum-information-so-reprocessing-is-feasible" class="level2">
-<h2 class="anchored" data-anchor-id="raw-data-define-mzpeak-minimum-information-so-reprocessing-is-feasible">Raw data: define “mzPeak minimum information” so reprocessing is feasible</h2>
-<p>The raw-data group focused on the minimum metadata needed to make peak-level representations reprocessable and interoperable at scale. In light of the development of the new <a href="https://github.com/HUPO-PSI/mzPeak">mzPeak format</a> <span class="citation" data-cites="VanDenBossche2025">(<a href="#ref-VanDenBossche2025" role="doc-biblioref">Van Den Bossche et al. 2025</a>)</span>, the discussion centred on capturing <em>(a)</em> per run, essential acquisition context (instrument model and software version; separation technology details including LC gradient/mobile phases/column information; ion mobility or imaging parameters where relevant; ionization type; acquisition mode) and, <em>(b)</em> per scan, the key analytical settings (mass analyzer, scan range, collision energy/type, MS level, precursor and isolation window where applicable). The point was pragmatic: without these elements, it becomes difficult to compare datasets, reproduce processing choices, or support systematic reprocessing—regardless of whether the downstream consumer is a human or an ML pipeline.</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled" title="PSI-AI action points">
+<section id="a-recap-of-the-psi-ai-sessions" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="a-recap-of-the-psi-ai-sessions">A recap of the PSI-AI sessions</h2>
+<section id="hands-on-training-in-reprocessing-public-proteomics-data" class="level3">
+<h3 class="anchored" data-anchor-id="hands-on-training-in-reprocessing-public-proteomics-data">Hands-on training in reprocessing public proteomics data</h3>
+<p>The week opened with the <strong>Education Day</strong>, a new format aimed at introducing PSI standards to newer members. The AI-readiness Working Group used the day for two things: a morning session on the core concepts of reprocessing public proteomics data, including the standards and analytical hurdles involved, followed by an afternoon of hands-on technical and biological tutorials that translated the conceptual material into actionable code. The materials will be shared openly and reused at the HUPO pre-congress workshop, which means the audience for this work extends well beyond the people who happened to be in the room.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Hands-on tutorials">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>PSI-AI action points
+<span class="screen-reader-only">Note</span>Hands-on tutorials
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>For PSI-AI, the immediate step is to translate this minimum-information set into a machine-checkable checklist aligned to controlled vocabularies and to explore how much can be recovered from existing submissions versus what must be captured earlier (during acquisition / before submission). Coordination with the mzPeak team and with ProteomeXchange <span class="citation" data-cites="Deutsch2025">(<a href="#ref-Deutsch2025" role="doc-biblioref">Deutsch et al. 2025</a>)</span> stakeholders was viewed as important to ensure any checklist can be validated and incentivized in real deposition workflows.</p>
+<p>Try out the hands-on tutorials from the Education Day and learn how PSI standards can be used in AI workflows for peptide property prediction:</p>
+<ol type="1">
+<li><a href="https://www.kaggle.com/code/ralfga/psi-workshop-part-1-search-results-to-mzspeclib">From search results to a spectral library (mzSpecLib, mzPAF, ProForma, and PSI-MOD)</a></li>
+<li><a href="https://www.kaggle.com/code/ralfga/psi-workshop-part-2-retention-time-prediction/">Retention time prediction (mzSpecLib, ProForma)</a></li>
+<li><a href="https://www.kaggle.com/code/ralfga/psi-workshop-part-3-ms2-intensity-prediction/">Fragment intensity prediction with a BiLSTM (mzSpecLib, mzPAF, USI, and PROXI)</a></li>
+</ol>
 </div>
 </div>
 </section>
-<section id="identification-improve-interpretability-of-peptidoforms-scores-and-spectrum-links" class="level2">
-<h2 class="anchored" data-anchor-id="identification-improve-interpretability-of-peptidoforms-scores-and-spectrum-links">Identification: improve interpretability of peptidoforms, scores, and spectrum links</h2>
-<p>The identification group discussed three recurring challenges: encoding modified sequences in a way that remains machine-interpretable, communicating confidence/uncertainty in a reusable manner, and reliably linking reported identifications back to spectra. Participants noted that <a href="https://github.com/HUPO-PSI/ProForma">ProForma</a> <span class="citation" data-cites="LeDuc2022">(<a href="#ref-LeDuc2022" role="doc-biblioref">LeDuc et al. 2022</a>)</span> is already widely used, but that reuse would improve if modifications were consistently represented using stable identifiers when possible, if localization probabilities were included when available, and if the community explored better ways to represent residue-level certainty (including for de novo outputs).</p>
-<p>A second theme was that many identification scores and q-values are not purely spectrum-local; they depend on dataset-wide modelling and upstream spectrum processing, complicating comparability and reuse for ML. This motivated calls for better capture of processing algorithms and, where appropriate, sharing the processed peak lists that determined the PSM scores alongside the raw data. In this light, participants highlighted <a href="https://hupo-psi.github.io/mzSpecLib/">mzSpecLib</a> <span class="citation" data-cites="Klein2024">(<a href="#ref-Klein2024" role="doc-biblioref">Klein et al. 2024</a>)</span> as an important basis for spectral library exchange, while acknowledging the need for more scalable serializations (e.g., Parquet-based) and tooling for very large libraries, especially in DIA contexts. Finally, the group strongly endorsed <a href="https://www.psidev.info/usi">USI</a> <span class="citation" data-cites="Deutsch2021">(<a href="#ref-Deutsch2021" role="doc-biblioref">Deutsch et al. 2021</a>)</span> as a foundational mechanism for resolvable spectrum-level references in public repositories, while noting ongoing confusion around commonly used spectrum identifiers (like scan number (<a href="http://purl.obolibrary.org/obo/MS_1003057">MS:1003057</a>) and spectrum title (<a href="http://purl.obolibrary.org/obo/MS_1000796">MS:1000796</a>)) and vendor-specific native IDs (<a href="http://purl.obolibrary.org/obo/MS_1000767">MS:1000767</a>) (also see <a href="https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/classOpenMS_1_1SpectrumNativeIDParser.html#detailed-description">OpenMS docs</a> for examples).</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled" title="PSI-AI action points">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>PSI-AI action points
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>For PSI-AI, suggested next steps include drafting practical guidance on recommended ProForma usage in common outputs, advancing scalable and DIA-ready spectral library sharing in coordination with mzSpecLib, and pushing USI-first linking as a default best practice in tools, manuscripts, and repository submissions.</p>
+<section id="ai-as-a-new-layer-on-existing-psi-standards" class="level3">
+<h3 class="anchored" data-anchor-id="ai-as-a-new-layer-on-existing-psi-standards">AI as a new layer on existing PSI standards</h3>
+<p>The meeting itself opened with a <strong>joint coordinating session</strong>, and the value of that format became clear almost immediately. AI is now present across the entire experimental workflow, which means the Working Group needs to engage closely with the other PSI Working Groups and treat AI as a new layer on top of existing standards rather than a parallel track. That principle keeps the work moving faster and preserves interoperability.</p>
+</section>
+<section id="adapting-anndata-for-proteomics-with-psi-ai-and-scverse" class="level3">
+<h3 class="anchored" data-anchor-id="adapting-anndata-for-proteomics-with-psi-ai-and-scverse">Adapting AnnData for proteomics with PSI-AI and scverse</h3>
+<p>Nowhere was this more visible than in the <strong>quantification format</strong> discussion. The proposal builds on <strong>AnnData</strong> <span class="citation" data-cites="Virshup2024">(<a href="#ref-Virshup2024" role="doc-biblioref">Virshup et al. 2024</a>)</span>, the format the scverse community developed for single-cell omics, and adapts it for proteomics quantification. The division of labor is deliberate: PSI-AI defines the ontology and validation rules, while scverse contributes the underlying implementation. Feedback in the room was positive, particularly on the use of controlled vocabularies and on linking SDRF with AnnData so that provenance travels with the data, going beyond raw measurements to capture the statistical and biological transformations and conclusions drawn from them. LinkML emerged as a candidate for handling the unstructured section of AnnData, and the next steps focus on defining the specification, the validator, and reference implementations.</p>
+</section>
+<section id="mzpeak-is-a-faster-alternative-to-mzml-for-upstream-data-access" class="level3">
+<h3 class="anchored" data-anchor-id="mzpeak-is-a-faster-alternative-to-mzml-for-upstream-data-access">mzPeak is a faster alternative to mzML for upstream data access</h3>
+<p>If quantification was about giving downstream analysis a stable home, the <strong>mzPeak</strong> <span class="citation" data-cites="VanDenBossche2025">(<a href="#ref-VanDenBossche2025" role="doc-biblioref">Van Den Bossche et al. 2025</a>)</span> session was about making upstream access faster. This effort, a core focus of the PSI-MS group, already shows substantial speed improvements over mzML, and implementations are appearing across multiple programming languages. The next step is to formalize the standard, and vendor engagement will be actively pursued, since input from instrument manufacturers will be essential to ensure widespread adoption.</p>
+</section>
+<section id="automated-metadata-extraction-from-raw-files-and-publications" class="level3">
+<h3 class="anchored" data-anchor-id="automated-metadata-extraction-from-raw-files-and-publications">Automated metadata extraction from raw files and publications</h3>
+<p>Standards are only as useful as the metadata that travels with them, which is why the <strong>SDRF</strong> <span class="citation" data-cites="Dai2021">(<a href="#ref-Dai2021" role="doc-biblioref">Dai et al. 2021</a>)</span> session drew so much attention. <strong>HAMLET</strong>, an agentic pipeline that extracts structured metadata directly from raw files and accompanying publications, was introduced as a way to close the gap between the data that exists in public repositories and the metadata that should accompany it. The framework is tunable through prompts and ontologies, but the design choice that matters most is the emphasis on normalization rather than on the LLM itself. An essential point going forward will be a clear separation between human-annotated and AI-generated metadata files, so that downstream users always know which is which.</p>
+</section>
+<section id="toward-a-practical-checklist-for-ai-in-proteomics" class="level3">
+<h3 class="anchored" data-anchor-id="toward-a-practical-checklist-for-ai-in-proteomics">Toward a practical checklist for AI in proteomics</h3>
+<p>That naturally led into the benchmarking and <strong>MIAPE-AI</strong> session, where <strong>ProteoBench</strong> <span class="citation" data-cites="Devreese2025">(<a href="#ref-Devreese2025" role="doc-biblioref">Devreese et al. 2025</a>)</span> and the <strong>ProteomicsML</strong> <span class="citation" data-cites="Rehfeldt2023">(<a href="#ref-Rehfeldt2023" role="doc-biblioref">Rehfeldt et al. 2023</a>)</span> index of existing methods and workflows set the stage. The group identified the AI tasks that currently appear most often in proteomics and began outlining MIAPE-AI, starting from the DOME guidelines. The ambition is pragmatic: a checklist that developers and reviewers can both use, with topic-specific flavors much like SDRF has spawned for different experimental designs. Retention time prediction, de novo sequencing, and biomarker discovery each deserve their own profile, and existing MIAPE documents will be revisited to incorporate AI-specific considerations rather than being displaced by new ones.</p>
+</section>
+<section id="responsible-ai-across-the-proteomics-data-lifecycle" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="responsible-ai-across-the-proteomics-data-lifecycle">Responsible AI across the proteomics data lifecycle</h3>
+<p><strong>Ethics</strong> is an enormous topic, so the group approached it through the data lifecycle, since each step carries its own ethical concerns. Patient-level questions such as cohort selection, informed consent, and identifiability sit on one side, while data-level concerns such as encryption, metadata practices, and FASTA file handling sit on the other. Modeling-stage discussion centered on the DOME guidelines, and a viewpoint paper capturing this landscape is now in preparation.</p>
+<div class="page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="featured.png" class="img-fluid figure-img column-body-outset"></p>
+<figcaption>HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)</figcaption>
+</figure>
 </div>
 </div>
 </section>
-<section id="quantification-an-mzquant-container-that-records-how-numbers-were-produced" class="level2">
-<h2 class="anchored" data-anchor-id="quantification-an-mzquant-container-that-records-how-numbers-were-produced">Quantification: An “mzQuant” container that records <em>how numbers were produced</em></h2>
-<p>The quantification group discussed the limitation of downstream reuse by the absence of quantitative tables that preserve the full data processing history. A proposed direction, informally termed mzQuant, is a multi-layer quantitative matrix container inspired by the AnnData format <span class="citation" data-cites="Virshup2024">(<a href="#ref-Virshup2024" role="doc-biblioref">Virshup et al. 2024</a>)</span>, where a declared primary matrix (PSM/peptide/protein/protein group) can be accompanied by additional layers (raw, normalized, batch-corrected, imputed, summarized, statistical outputs). The critical requirement is that each layer carries structured descriptions of methods and assumptions, parameters, and software versions - so results are not just shareable, but auditable and reproducible.</p>
-<p>Participants emphasized that the container must embed experimental design in an SDRF-compatible form <span class="citation" data-cites="Dai2021">(<a href="#ref-Dai2021" role="doc-biblioref">Dai et al. 2021</a>)</span> (groups, contrasts, blocking/randomization, and explicit linkage to raw files), and that adoption hinges on low-friction integration with existing and frequently used environments including search engines, statistical tools, etc.</p>
-<p>In parallel, the group saw a clear opportunity for AI-based added value of such a format by <em>(i)</em> using LLMs to generate SDRF files based on experimental design; <em>(ii)</em> automatically complete mzQuant by extracting e.g.&nbsp;normalization methods directly from the code; <em>(iii)</em> use the layers of mzQuant and SDRF to automatically generate <em>Materials and Methods</em> sections and describe the computational analysis process in a human readable format.</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled" title="PSI-AI action points">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>PSI-AI action points
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Short-term PSI-AI action items are to draft a minimal schema and reference layout for mzQuant, to run a controlled vocabulary/ontology gap analysis (the PSI-MS controlled vocabulary <span class="citation" data-cites="Mayer2013">(<a href="#ref-Mayer2013" role="doc-biblioref">Mayer et al. 2013</a>)</span> and broader biomedical data ontologies), and to deliver reference implementations in common programming languages, a validator, and practical examples including deliberate “bad” cases.</p>
-</div>
-</div>
 </section>
-<section id="what-psi-ai-takes-forward" class="level2">
-<h2 class="anchored" data-anchor-id="what-psi-ai-takes-forward">What PSI-AI takes forward</h2>
-<p>Across all three tracks, participants repeatedly asked for <em>(i)</em> explicit provenance, <em>(ii)</em> structured, machine-checkable metadata—especially experimental design, <em>(iii)</em> validator tooling with actionable error messages, and <em>(iv)</em> alignment with existing PSI standards rather than parallel reinvention. In collaboration with other PSI working groups and stakeholders, PSI-AI will use these workshop outcomes to prioritize minimal schemas/checklists, CV mappings, reference conversions, and validation/reporting tools, and to package the results as worked examples that can be adopted by software developers, repositories, and researchers.</p>
-<p>To join the effort, contact <script type="text/javascript">
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">Looking ahead…</h2>
+<p>Three concrete deliverables are taking shape: the quantification format, the ethics viewpoint, and MIAPE-AI. Alongside those, the group is exploring formal collaborations with ELIXIR, the HUPO AI initiative, and other adjacent groups, with a longer-term goal of producing a PSI-powered, AI-ready proof-of-concept dataset that demonstrates the full integrated pipeline in practice. Four new members have joined the Working Group since the previous meeting, and the cadence remains the same, namely every two weeks on Tuesdays from 17:00 to 18:00 Central European time.</p>
+<p>If any of this resonates, get in touch at <script type="text/javascript">
 <!--
 h='&#112;&#x73;&#x69;&#x2d;&#x61;&#x69;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x69;&#110;&#102;&#x6f;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
 // -->
-</script><noscript>info at psi-ai dot org</noscript>.</p>
+</script><noscript>info at psi-ai dot org</noscript>. There is more than enough work to go around.</p>
 
 
 
@@ -325,20 +335,14 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 <div id="ref-Dai2021" class="csl-entry" role="listitem">
 Dai, Chengxin, Anja Füllgrabe, Julianus Pfeuffer, et al. 2021. <span>“A Proteomics Sample Metadata Representation for Multiomics Integration and Big Data Analysis.”</span> <em>Nature Communications</em> 12 (1). <a href="https://doi.org/10.1038/s41467-021-26111-3">https://doi.org/10.1038/s41467-021-26111-3</a>.
 </div>
-<div id="ref-Deutsch2025" class="csl-entry" role="listitem">
-Deutsch, Eric W, Nuno Bandeira, Yasset Perez-Riverol, et al. 2025. <span>“The ProteomeXchange Consortium in 2026: Making Proteomics Data FAIR.”</span> <em>Nucleic Acids Research</em> 54 (D1): D459–69. <a href="https://doi.org/10.1093/nar/gkaf1146">https://doi.org/10.1093/nar/gkaf1146</a>.
+<div id="ref-Deutsch2023" class="csl-entry" role="listitem">
+Deutsch, Eric W., Juan Antonio Vizcaíno, Andrew R. Jones, et al. 2023. <span>“Proteomics Standards Initiative at Twenty Years: Current Activities and Future Work.”</span> <em>Journal of Proteome Research</em> 22 (2): 287–301. <a href="https://doi.org/10.1021/acs.jproteome.2c00637">https://doi.org/10.1021/acs.jproteome.2c00637</a>.
 </div>
-<div id="ref-Deutsch2021" class="csl-entry" role="listitem">
-Deutsch, Eric W., Yasset Perez-Riverol, Jeremy Carver, et al. 2021. <span>“Universal Spectrum Identifier for Mass Spectra.”</span> <em>Nature Methods</em> 18 (7): 768–70. <a href="https://doi.org/10.1038/s41592-021-01184-6">https://doi.org/10.1038/s41592-021-01184-6</a>.
+<div id="ref-Devreese2025" class="csl-entry" role="listitem">
+Devreese, Robbe, Caroline Jachmann, Bart Van Puyvelde, et al. 2025. <em>ProteoBench: The Community-Curated Platform for Comparing Proteomics Data Analysis Workflows</em>. December. <a href="https://doi.org/10.64898/2025.12.09.692895">https://doi.org/10.64898/2025.12.09.692895</a>.
 </div>
-<div id="ref-Klein2024" class="csl-entry" role="listitem">
-Klein, Joshua, Henry Lam, Tytus D. Mak, et al. 2024. <span>“The Proteomics Standards Initiative Standardized Formats for Spectral Libraries and Fragment Ion Peak Annotations: mzSpecLib and mzPAF.”</span> <em>Analytical Chemistry</em> 96 (46): 18491–501. <a href="https://doi.org/10.1021/acs.analchem.4c04091">https://doi.org/10.1021/acs.analchem.4c04091</a>.
-</div>
-<div id="ref-LeDuc2022" class="csl-entry" role="listitem">
-LeDuc, Richard D., Eric W. Deutsch, Pierre-Alain Binz, et al. 2022. <span>“Proteomics Standards Initiative’s ProForma 2.0: Unifying the Encoding of Proteoforms and Peptidoforms.”</span> <em>Journal of Proteome Research</em> 21 (4): 1189–95. <a href="https://doi.org/10.1021/acs.jproteome.1c00771">https://doi.org/10.1021/acs.jproteome.1c00771</a>.
-</div>
-<div id="ref-Mayer2013" class="csl-entry" role="listitem">
-Mayer, G., L. Montecchi-Palazzi, D. Ovelleiro, et al. 2013. <span>“The HUPO Proteomics Standards Initiative- Mass Spectrometry Controlled Vocabulary.”</span> <em>Database</em> 2013 (0): bat009–9. <a href="https://doi.org/10.1093/database/bat009">https://doi.org/10.1093/database/bat009</a>.
+<div id="ref-Rehfeldt2023" class="csl-entry" role="listitem">
+Rehfeldt, Tobias G., Ralf Gabriels, Robbin Bouwmeester, et al. 2023. <span>“ProteomicsML: An Online Platform for Community-Curated Data Sets and Tutorials for Machine Learning in Proteomics.”</span> <em>Journal of Proteome Research</em> 22 (2): 632–36. <a href="https://doi.org/10.1021/acs.jproteome.2c00629">https://doi.org/10.1021/acs.jproteome.2c00629</a>.
 </div>
 <div id="ref-VanDenBossche2025" class="csl-entry" role="listitem">
 Van Den Bossche, Tim, Theodore Alexandrov, Aivett Bilbao, et al. 2025. <span>“mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format.”</span> <em>Journal of Proteome Research</em> 24 (11): 5329–35. <a href="https://doi.org/10.1021/acs.jproteome.5c00435">https://doi.org/10.1021/acs.jproteome.5c00435</a>.
@@ -346,18 +350,16 @@ Van Den Bossche, Tim, Theodore Alexandrov, Aivett Bilbao, et al. 2025. <span>“
 <div id="ref-Virshup2024" class="csl-entry" role="listitem">
 Virshup, Isaac, Sergei Rybakov, Fabian J. Theis, Philipp Angerer, and F. Alexander Wolf. 2024. <span>“Anndata: Access and Store Annotated Data Matrices.”</span> <em>Journal of Open Source Software</em> 9 (101): 4371. <a href="https://doi.org/10.21105/joss.04371">https://doi.org/10.21105/joss.04371</a>.
 </div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.en_us">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div class="quarto-appendix-contents"><div>HUPO-PSI AI-readiness Working Group</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{gabriels2026,
-  author = {Gabriels, Ralf and Wein, Samuel and Claeys, Tine},
-  title = {HUPO 2025 Workshop: {What} {AI-ready} Proteomics Data Should
-    Look Like},
-  date = {2026-02-04},
-  url = {https://www.psi-ai.org/blog/posts/2026-02-04-hupo-workshop/},
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.en_us">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div class="quarto-appendix-contents"><div>HUPO-PSI AI-readiness Working Group</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{claeys2026,
+  author = {Claeys, Tine and Gabriels, Ralf and Wein, Samuel},
+  title = {PSI-AI in {Rome:} {Setting} the Scaffolds of {AI-readiness}},
+  date = {2026-05-27},
+  url = {https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/},
   langid = {en-US}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-gabriels2026" class="csl-entry quarto-appendix-citeas" role="listitem">
-Gabriels, Ralf, Samuel Wein, and Tine Claeys. 2026. <span>“HUPO 2025
-Workshop: What AI-Ready Proteomics Data Should Look Like.”</span>
-February 4. <a href="https://www.psi-ai.org/blog/posts/2026-02-04-hupo-workshop/">https://www.psi-ai.org/blog/posts/2026-02-04-hupo-workshop/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-claeys2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Claeys, Tine, Ralf Gabriels, and Samuel Wein. 2026. <span>“PSI-AI in
+Rome: Setting the Scaffolds of AI-Readiness.”</span> May 27. <a href="https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/">https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

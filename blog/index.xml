@@ -9,8 +9,138 @@
 <link>https://www.psi-ai.org/blog/</link>
 <atom:link href="https://www.psi-ai.org/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>HUPO-PSI AI-readiness Working Group</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 04 Feb 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Wed, 27 May 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>PSI-AI in Rome: Setting the scaffolds of AI-readiness</title>
+  <dc:creator>Tine Claeys</dc:creator>
+  <dc:creator>Ralf Gabriels</dc:creator>
+  <dc:creator>Samuel Wein</dc:creator>
+  <link>https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The HUPO-PSI <span class="citation" data-cites="Deutsch2023">(Deutsch et al. 2023)</span> AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.</p>
+<div class="page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/group-picture.png" class="img-fluid figure-img column-body-outset"></p>
+<figcaption>Group picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="a-recap-of-the-psi-ai-sessions" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="a-recap-of-the-psi-ai-sessions">A recap of the PSI-AI sessions</h2>
+<section id="hands-on-training-in-reprocessing-public-proteomics-data" class="level3">
+<h3 class="anchored" data-anchor-id="hands-on-training-in-reprocessing-public-proteomics-data">Hands-on training in reprocessing public proteomics data</h3>
+<p>The week opened with the <strong>Education Day</strong>, a new format aimed at introducing PSI standards to newer members. The AI-readiness Working Group used the day for two things: a morning session on the core concepts of reprocessing public proteomics data, including the standards and analytical hurdles involved, followed by an afternoon of hands-on technical and biological tutorials that translated the conceptual material into actionable code. The materials will be shared openly and reused at the HUPO pre-congress workshop, which means the audience for this work extends well beyond the people who happened to be in the room.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Hands-on tutorials">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Hands-on tutorials
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Try out the hands-on tutorials from the Education Day and learn how PSI standards can be used in AI workflows for peptide property prediction:</p>
+<ol type="1">
+<li><a href="https://www.kaggle.com/code/ralfga/psi-workshop-part-1-search-results-to-mzspeclib">From search results to a spectral library (mzSpecLib, mzPAF, ProForma, and PSI-MOD)</a></li>
+<li><a href="https://www.kaggle.com/code/ralfga/psi-workshop-part-2-retention-time-prediction/">Retention time prediction (mzSpecLib, ProForma)</a></li>
+<li><a href="https://www.kaggle.com/code/ralfga/psi-workshop-part-3-ms2-intensity-prediction/">Fragment intensity prediction with a BiLSTM (mzSpecLib, mzPAF, USI, and PROXI)</a></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="ai-as-a-new-layer-on-existing-psi-standards" class="level3">
+<h3 class="anchored" data-anchor-id="ai-as-a-new-layer-on-existing-psi-standards">AI as a new layer on existing PSI standards</h3>
+<p>The meeting itself opened with a <strong>joint coordinating session</strong>, and the value of that format became clear almost immediately. AI is now present across the entire experimental workflow, which means the Working Group needs to engage closely with the other PSI Working Groups and treat AI as a new layer on top of existing standards rather than a parallel track. That principle keeps the work moving faster and preserves interoperability.</p>
+</section>
+<section id="adapting-anndata-for-proteomics-with-psi-ai-and-scverse" class="level3">
+<h3 class="anchored" data-anchor-id="adapting-anndata-for-proteomics-with-psi-ai-and-scverse">Adapting AnnData for proteomics with PSI-AI and scverse</h3>
+<p>Nowhere was this more visible than in the <strong>quantification format</strong> discussion. The proposal builds on <strong>AnnData</strong> <span class="citation" data-cites="Virshup2024">(Virshup et al. 2024)</span>, the format the scverse community developed for single-cell omics, and adapts it for proteomics quantification. The division of labor is deliberate: PSI-AI defines the ontology and validation rules, while scverse contributes the underlying implementation. Feedback in the room was positive, particularly on the use of controlled vocabularies and on linking SDRF with AnnData so that provenance travels with the data, going beyond raw measurements to capture the statistical and biological transformations and conclusions drawn from them. LinkML emerged as a candidate for handling the unstructured section of AnnData, and the next steps focus on defining the specification, the validator, and reference implementations.</p>
+</section>
+<section id="mzpeak-is-a-faster-alternative-to-mzml-for-upstream-data-access" class="level3">
+<h3 class="anchored" data-anchor-id="mzpeak-is-a-faster-alternative-to-mzml-for-upstream-data-access">mzPeak is a faster alternative to mzML for upstream data access</h3>
+<p>If quantification was about giving downstream analysis a stable home, the <strong>mzPeak</strong> <span class="citation" data-cites="VanDenBossche2025">(Van Den Bossche et al. 2025)</span> session was about making upstream access faster. This effort, a core focus of the PSI-MS group, already shows substantial speed improvements over mzML, and implementations are appearing across multiple programming languages. The next step is to formalize the standard, and vendor engagement will be actively pursued, since input from instrument manufacturers will be essential to ensure widespread adoption.</p>
+</section>
+<section id="automated-metadata-extraction-from-raw-files-and-publications" class="level3">
+<h3 class="anchored" data-anchor-id="automated-metadata-extraction-from-raw-files-and-publications">Automated metadata extraction from raw files and publications</h3>
+<p>Standards are only as useful as the metadata that travels with them, which is why the <strong>SDRF</strong> <span class="citation" data-cites="Dai2021">(Dai et al. 2021)</span> session drew so much attention. <strong>HAMLET</strong>, an agentic pipeline that extracts structured metadata directly from raw files and accompanying publications, was introduced as a way to close the gap between the data that exists in public repositories and the metadata that should accompany it. The framework is tunable through prompts and ontologies, but the design choice that matters most is the emphasis on normalization rather than on the LLM itself. An essential point going forward will be a clear separation between human-annotated and AI-generated metadata files, so that downstream users always know which is which.</p>
+</section>
+<section id="toward-a-practical-checklist-for-ai-in-proteomics" class="level3">
+<h3 class="anchored" data-anchor-id="toward-a-practical-checklist-for-ai-in-proteomics">Toward a practical checklist for AI in proteomics</h3>
+<p>That naturally led into the benchmarking and <strong>MIAPE-AI</strong> session, where <strong>ProteoBench</strong> <span class="citation" data-cites="Devreese2025">(Devreese et al. 2025)</span> and the <strong>ProteomicsML</strong> <span class="citation" data-cites="Rehfeldt2023">(Rehfeldt et al. 2023)</span> index of existing methods and workflows set the stage. The group identified the AI tasks that currently appear most often in proteomics and began outlining MIAPE-AI, starting from the DOME guidelines. The ambition is pragmatic: a checklist that developers and reviewers can both use, with topic-specific flavors much like SDRF has spawned for different experimental designs. Retention time prediction, de novo sequencing, and biomarker discovery each deserve their own profile, and existing MIAPE documents will be revisited to incorporate AI-specific considerations rather than being displaced by new ones.</p>
+</section>
+<section id="responsible-ai-across-the-proteomics-data-lifecycle" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="responsible-ai-across-the-proteomics-data-lifecycle">Responsible AI across the proteomics data lifecycle</h3>
+<p><strong>Ethics</strong> is an enormous topic, so the group approached it through the data lifecycle, since each step carries its own ethical concerns. Patient-level questions such as cohort selection, informed consent, and identifiability sit on one side, while data-level concerns such as encryption, metadata practices, and FASTA file handling sit on the other. Modeling-stage discussion centered on the DOME guidelines, and a viewpoint paper capturing this landscape is now in preparation.</p>
+<div class="page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/featured.png" class="img-fluid figure-img column-body-outset"></p>
+<figcaption>HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</section>
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">Looking ahead…</h2>
+<p>Three concrete deliverables are taking shape: the quantification format, the ethics viewpoint, and MIAPE-AI. Alongside those, the group is exploring formal collaborations with ELIXIR, the HUPO AI initiative, and other adjacent groups, with a longer-term goal of producing a PSI-powered, AI-ready proof-of-concept dataset that demonstrates the full integrated pipeline in practice. Four new members have joined the Working Group since the previous meeting, and the cadence remains the same, namely every two weeks on Tuesdays from 17:00 to 18:00 Central European time.</p>
+<p>If any of this resonates, get in touch at <script type="text/javascript">
+<!--
+h='&#112;&#x73;&#x69;&#x2d;&#x61;&#x69;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x69;&#110;&#102;&#x6f;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>info at psi-ai dot org</noscript>. There is more than enough work to go around.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Dai2021" class="csl-entry">
+Dai, Chengxin, Anja Füllgrabe, Julianus Pfeuffer, et al. 2021. <span>“A Proteomics Sample Metadata Representation for Multiomics Integration and Big Data Analysis.”</span> <em>Nature Communications</em> 12 (1). <a href="https://doi.org/10.1038/s41467-021-26111-3">https://doi.org/10.1038/s41467-021-26111-3</a>.
+</div>
+<div id="ref-Deutsch2023" class="csl-entry">
+Deutsch, Eric W., Juan Antonio Vizcaíno, Andrew R. Jones, et al. 2023. <span>“Proteomics Standards Initiative at Twenty Years: Current Activities and Future Work.”</span> <em>Journal of Proteome Research</em> 22 (2): 287–301. <a href="https://doi.org/10.1021/acs.jproteome.2c00637">https://doi.org/10.1021/acs.jproteome.2c00637</a>.
+</div>
+<div id="ref-Devreese2025" class="csl-entry">
+Devreese, Robbe, Caroline Jachmann, Bart Van Puyvelde, et al. 2025. <em>ProteoBench: The Community-Curated Platform for Comparing Proteomics Data Analysis Workflows</em>. December. <a href="https://doi.org/10.64898/2025.12.09.692895">https://doi.org/10.64898/2025.12.09.692895</a>.
+</div>
+<div id="ref-Rehfeldt2023" class="csl-entry">
+Rehfeldt, Tobias G., Ralf Gabriels, Robbin Bouwmeester, et al. 2023. <span>“ProteomicsML: An Online Platform for Community-Curated Data Sets and Tutorials for Machine Learning in Proteomics.”</span> <em>Journal of Proteome Research</em> 22 (2): 632–36. <a href="https://doi.org/10.1021/acs.jproteome.2c00629">https://doi.org/10.1021/acs.jproteome.2c00629</a>.
+</div>
+<div id="ref-VanDenBossche2025" class="csl-entry">
+Van Den Bossche, Tim, Theodore Alexandrov, Aivett Bilbao, et al. 2025. <span>“mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format.”</span> <em>Journal of Proteome Research</em> 24 (11): 5329–35. <a href="https://doi.org/10.1021/acs.jproteome.5c00435">https://doi.org/10.1021/acs.jproteome.5c00435</a>.
+</div>
+<div id="ref-Virshup2024" class="csl-entry">
+Virshup, Isaac, Sergei Rybakov, Fabian J. Theis, Philipp Angerer, and F. Alexander Wolf. 2024. <span>“Anndata: Access and Store Annotated Data Matrices.”</span> <em>Journal of Open Source Software</em> 9 (101): 4371. <a href="https://doi.org/10.21105/joss.04371">https://doi.org/10.21105/joss.04371</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.en_us">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div class="quarto-appendix-contents"><div>HUPO-PSI AI-readiness Working Group</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{claeys2026,
+  author = {Claeys, Tine and Gabriels, Ralf and Wein, Samuel},
+  title = {PSI-AI in {Rome:} {Setting} the Scaffolds of {AI-readiness}},
+  date = {2026-05-27},
+  url = {https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/},
+  langid = {en-US}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-claeys2026" class="csl-entry quarto-appendix-citeas">
+Claeys, Tine, Ralf Gabriels, and Samuel Wein. 2026. <span>“PSI-AI in
+Rome: Setting the Scaffolds of AI-Readiness.”</span> May 27. <a href="https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/">https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/</a>.
+</div></div></section></div> ]]></description>
+  <category>community</category>
+  <category>workshop</category>
+  <guid>https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/</guid>
+  <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>HUPO 2025 workshop: What AI-ready proteomics data should look like</title>
   <dc:creator>Ralf Gabriels</dc:creator>

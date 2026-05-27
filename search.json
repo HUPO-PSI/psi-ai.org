@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "charter/index.html",
-    "href": "charter/index.html",
-    "title": "Working group charter",
-    "section": "",
-    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant"
-  },
-  {
-    "objectID": "charter/index.html#focus-and-purpose",
-    "href": "charter/index.html#focus-and-purpose",
-    "title": "Working group charter",
-    "section": "Focus and Purpose",
-    "text": "Focus and Purpose\nThe goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure."
-  },
-  {
-    "objectID": "charter/index.html#goalsmilestones",
-    "href": "charter/index.html#goalsmilestones",
-    "title": "Working group charter",
-    "section": "Goals/Milestones",
-    "text": "Goals/Milestones\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHUPO 2025 workshop: What AI-ready proteomics data should look like\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.\n\n\n\nRalf Gabriels, Samuel Wein, Tine Claeys\n\n\nFeb 4, 2026\n\n\n\n\n\n\nNo matching items\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
-  },
-  {
     "objectID": "members/index.html",
     "href": "members/index.html",
     "title": "Members",
@@ -110,5 +82,61 @@
     "title": "PSI-AI",
     "section": "Get Involved",
     "text": "Get Involved\n\n\n🤝 Contribute content\n\nSubmit documentation\nShare best practices\nReview community submissions\nProvide feedback\n\n\n\n💬 Join discussions\n\nAttend community calls\nParticipate in the working group task forces\nComment on proposals\nShare project experiences\n\n\n\n\n\n\n\n\n\nNoteReady to start?\n\n\n\nJoin our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field. To get involved, please contact us at info at psi-ai dot org."
+  },
+  {
+    "objectID": "charter/index.html",
+    "href": "charter/index.html",
+    "title": "Working group charter",
+    "section": "",
+    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant"
+  },
+  {
+    "objectID": "charter/index.html#focus-and-purpose",
+    "href": "charter/index.html#focus-and-purpose",
+    "title": "Working group charter",
+    "section": "Focus and Purpose",
+    "text": "Focus and Purpose\nThe goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure."
+  },
+  {
+    "objectID": "charter/index.html#goalsmilestones",
+    "href": "charter/index.html#goalsmilestones",
+    "title": "Working group charter",
+    "section": "Goals/Milestones",
+    "text": "Goals/Milestones\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "",
+    "text": "The HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.\n\n\n\n\nGroup picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#introduction",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#introduction",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "",
+    "text": "The HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.\n\n\n\n\nGroup picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#a-recap-of-the-psi-ai-sessions",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#a-recap-of-the-psi-ai-sessions",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "A recap of the PSI-AI sessions",
+    "text": "A recap of the PSI-AI sessions\n\nHands-on training in reprocessing public proteomics data\nThe week opened with the Education Day, a new format aimed at introducing PSI standards to newer members. The AI-readiness Working Group used the day for two things: a morning session on the core concepts of reprocessing public proteomics data, including the standards and analytical hurdles involved, followed by an afternoon of hands-on technical and biological tutorials that translated the conceptual material into actionable code. The materials will be shared openly and reused at the HUPO pre-congress workshop, which means the audience for this work extends well beyond the people who happened to be in the room.\n\n\n\n\n\n\nNoteHands-on tutorials\n\n\n\nTry out the hands-on tutorials from the Education Day and learn how PSI standards can be used in AI workflows for peptide property prediction:\n\nFrom search results to a spectral library (mzSpecLib, mzPAF, ProForma, and PSI-MOD)\nRetention time prediction (mzSpecLib, ProForma)\nFragment intensity prediction with a BiLSTM (mzSpecLib, mzPAF, USI, and PROXI)\n\n\n\n\n\nAI as a new layer on existing PSI standards\nThe meeting itself opened with a joint coordinating session, and the value of that format became clear almost immediately. AI is now present across the entire experimental workflow, which means the Working Group needs to engage closely with the other PSI Working Groups and treat AI as a new layer on top of existing standards rather than a parallel track. That principle keeps the work moving faster and preserves interoperability.\n\n\nAdapting AnnData for proteomics with PSI-AI and scverse\nNowhere was this more visible than in the quantification format discussion. The proposal builds on AnnData (Virshup et al. 2024), the format the scverse community developed for single-cell omics, and adapts it for proteomics quantification. The division of labor is deliberate: PSI-AI defines the ontology and validation rules, while scverse contributes the underlying implementation. Feedback in the room was positive, particularly on the use of controlled vocabularies and on linking SDRF with AnnData so that provenance travels with the data, going beyond raw measurements to capture the statistical and biological transformations and conclusions drawn from them. LinkML emerged as a candidate for handling the unstructured section of AnnData, and the next steps focus on defining the specification, the validator, and reference implementations.\n\n\nmzPeak is a faster alternative to mzML for upstream data access\nIf quantification was about giving downstream analysis a stable home, the mzPeak (Van Den Bossche et al. 2025) session was about making upstream access faster. This effort, a core focus of the PSI-MS group, already shows substantial speed improvements over mzML, and implementations are appearing across multiple programming languages. The next step is to formalize the standard, and vendor engagement will be actively pursued, since input from instrument manufacturers will be essential to ensure widespread adoption.\n\n\nAutomated metadata extraction from raw files and publications\nStandards are only as useful as the metadata that travels with them, which is why the SDRF (Dai et al. 2021) session drew so much attention. HAMLET, an agentic pipeline that extracts structured metadata directly from raw files and accompanying publications, was introduced as a way to close the gap between the data that exists in public repositories and the metadata that should accompany it. The framework is tunable through prompts and ontologies, but the design choice that matters most is the emphasis on normalization rather than on the LLM itself. An essential point going forward will be a clear separation between human-annotated and AI-generated metadata files, so that downstream users always know which is which.\n\n\nToward a practical checklist for AI in proteomics\nThat naturally led into the benchmarking and MIAPE-AI session, where ProteoBench (Devreese et al. 2025) and the ProteomicsML (Rehfeldt et al. 2023) index of existing methods and workflows set the stage. The group identified the AI tasks that currently appear most often in proteomics and began outlining MIAPE-AI, starting from the DOME guidelines. The ambition is pragmatic: a checklist that developers and reviewers can both use, with topic-specific flavors much like SDRF has spawned for different experimental designs. Retention time prediction, de novo sequencing, and biomarker discovery each deserve their own profile, and existing MIAPE documents will be revisited to incorporate AI-specific considerations rather than being displaced by new ones.\n\n\nResponsible AI across the proteomics data lifecycle\nEthics is an enormous topic, so the group approached it through the data lifecycle, since each step carries its own ethical concerns. Patient-level questions such as cohort selection, informed consent, and identifiability sit on one side, while data-level concerns such as encryption, metadata practices, and FASTA file handling sit on the other. Modeling-stage discussion centered on the DOME guidelines, and a viewpoint paper capturing this landscape is now in preparation.\n\n\n\n\nHUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#looking-ahead",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#looking-ahead",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "Looking ahead…",
+    "text": "Looking ahead…\nThree concrete deliverables are taking shape: the quantification format, the ethics viewpoint, and MIAPE-AI. Alongside those, the group is exploring formal collaborations with ELIXIR, the HUPO AI initiative, and other adjacent groups, with a longer-term goal of producing a PSI-powered, AI-ready proof-of-concept dataset that demonstrates the full integrated pipeline in practice. Four new members have joined the Working Group since the previous meeting, and the cadence remains the same, namely every two weeks on Tuesdays from 17:00 to 18:00 Central European time.\nIf any of this resonates, get in touch at info at psi-ai dot org. There is more than enough work to go around."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPSI-AI in Rome: Setting the scaffolds of AI-readiness\n\n\n\ncommunity\n\nworkshop\n\n\n\nA recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across…\n\n\n\nTine Claeys, Ralf Gabriels, Samuel Wein\n\n\nMay 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHUPO 2025 workshop: What AI-ready proteomics data should look like\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.\n\n\n\nRalf Gabriels, Samuel Wein, Tine Claeys\n\n\nFeb 4, 2026\n\n\n\n\n\n\nNo matching items\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
   }
 ]
