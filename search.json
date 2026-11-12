@@ -7,6 +7,27 @@
     "text": "Co-chairs\nPSI-AI is led by a team of co-chairs who coordinate the working group’s strategy, prioritization, and delivery across the HUPO-PSI community. They ensure alignment with other PSI working groups and external stakeholders, and facilitate consensus on standards, guidelines, and resources that make proteomics data and workflows fit for modern AI/ML use.\n\n\n\n\n\n\n\nTine Claeys\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nSamuel Wein\n\nUniversity of Tübingen / OpenMS (DE)\n\n\n\n\n\n\nRalf Gabriels\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nWorking group members\nPSI-AI members form an international, cross-disciplinary community spanning proteomics standards development, computational proteomics, software engineering, repositories, benchmarking and reporting, curated dataset development, and ethics and privacy expertise to ensure interoperable, reproducible, compliant, and AI-ready proteomics.\n\n\n\n\n\n\n\nAhmad Lutfi\n\nTechnische Universität Berlin (DE)\n\n\n\n\n\n\nBen Neely\n\nNational Institute of Standards and Technology (US)\n\n\n\n\n\n\nCaroline Jachmann\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nCharlotte Adams\n\nUniversity of Antwerp (BE)\n\n\n\n\n\n\nHenry Webel\n\nTechnical University of Denmark (DK)\n\n\n\n\n\n\nIna Devos\n\nUniversity of Antwerp / VITO (BE)\n\n\n\n\n\n\nJonas Scheid\n\nUniversity Hospital Tübingen (DE)\n\n\n\n\n\n\nJulian Uszkoreit\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nKarin Schork\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nKevin Yang\n\nUniversity of Michigan (US)\n\n\n\n\n\n\nLisa Boatner\n\nChan Zuckerberg Initiative (US)\n\n\n\n\n\n\nMagnus Palmblad\n\nLeiden University Medical Center (NL)\n\n\n\n\n\n\nMaike Weber\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nParag Mallick\n\nStanford University / Nautilus Biotechnology (US)\n\n\n\n\n\n\nPatricia Cervera de la Cruz\n\nPHG Foundation (UK) / Ghent University (BE)\n\n\n\n\n\n\nShih-Yi (Winnie) Hsiung\n\nSoka University (Japan) / Taipei Medical University (Taiwan)\n\n\n\n\n\n\nThomas Naake\n\nNational Metrology Institute (DE)\n\n\n\n\nPSI-AI is strengthened by many additional contributors across the wider proteomics and data standards community whose insights and efforts support this work, even if they are not individually shown here.\n\n\nJoin PSI-AI\nPSI-AI welcomes participation from the wider community, including researchers, tool developers, repository teams, standards contributors, and ethics and legal experts. To get involved, please contact us at info at psi-ai dot org.\n\n\n\n\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
   },
   {
+    "objectID": "charter/index.html",
+    "href": "charter/index.html",
+    "title": "Working group charter",
+    "section": "",
+    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant"
+  },
+  {
+    "objectID": "charter/index.html#focus-and-purpose",
+    "href": "charter/index.html#focus-and-purpose",
+    "title": "Working group charter",
+    "section": "Focus and Purpose",
+    "text": "Focus and Purpose\nThe goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure."
+  },
+  {
+    "objectID": "charter/index.html#goalsmilestones",
+    "href": "charter/index.html#goalsmilestones",
+    "title": "Working group charter",
+    "section": "Goals/Milestones",
+    "text": "Goals/Milestones\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
+  },
+  {
     "objectID": "blog/posts/2026-02-04-hupo-workshop/index.html",
     "href": "blog/posts/2026-02-04-hupo-workshop/index.html",
     "title": "HUPO 2025 workshop: What AI-ready proteomics data should look like",
@@ -49,60 +70,46 @@
     "text": "What PSI-AI takes forward\nAcross all three tracks, participants repeatedly asked for (i) explicit provenance, (ii) structured, machine-checkable metadata—especially experimental design, (iii) validator tooling with actionable error messages, and (iv) alignment with existing PSI standards rather than parallel reinvention. In collaboration with other PSI working groups and stakeholders, PSI-AI will use these workshop outcomes to prioritize minimal schemas/checklists, CV mappings, reference conversions, and validation/reporting tools, and to package the results as worked examples that can be adopted by software developers, repositories, and researchers.\nTo join the effort, contact info at psi-ai dot org."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PSI-AI",
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
     "section": "",
-    "text": "The HUPO-PSI AI-readiness Working Group bridges the gap between proteomics data and the use of artificial intelligence. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure and community efforts."
+    "text": "At the 2026 International Mass Spectrometry Conference (IMSC) in Lyon (France), Ralf Gabriels (VIB-UGent), Magnus Palmblad (LUMC), and Robbe Devreese (VIB-UGent) ran a workshop titled “Is our proteomics data ready for AI? A PSI-AI workshop”, on behalf of the HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group (PSI-AI). About 60 participants attended.\nA digital poll opened the session by asking what participants expected to get out of it: 87% came to learn, 11% to discuss, and 2% to contribute. Given this near-unanimous appetite for learning, we pivoted the workshop toward education rather than open discussion. A second poll mapped the group’s experience with AI in proteomics: 42% reported close to no experience, 23% used proteomics software that embeds AI models without building or training them, 25% had applied existing AI models to their own data, 6% had trained their own models, and 4% worked mainly on developing AI models for proteomics. The audience therefore consisted mostly of newcomers and consumers of existing models, with very few producers. About 20% of participants were already familiar with HUPO-PSI, which made the workshop a useful outreach opportunity for the initiative as a whole.\nThe following sections of this blog post cover the topics that were discussed during the workshop."
   },
   {
-    "objectID": "index.html#mission",
-    "href": "index.html#mission",
-    "title": "PSI-AI",
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#introduction",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#introduction",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
     "section": "",
-    "text": "The HUPO-PSI AI-readiness Working Group bridges the gap between proteomics data and the use of artificial intelligence. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure and community efforts."
+    "text": "At the 2026 International Mass Spectrometry Conference (IMSC) in Lyon (France), Ralf Gabriels (VIB-UGent), Magnus Palmblad (LUMC), and Robbe Devreese (VIB-UGent) ran a workshop titled “Is our proteomics data ready for AI? A PSI-AI workshop”, on behalf of the HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group (PSI-AI). About 60 participants attended.\nA digital poll opened the session by asking what participants expected to get out of it: 87% came to learn, 11% to discuss, and 2% to contribute. Given this near-unanimous appetite for learning, we pivoted the workshop toward education rather than open discussion. A second poll mapped the group’s experience with AI in proteomics: 42% reported close to no experience, 23% used proteomics software that embeds AI models without building or training them, 25% had applied existing AI models to their own data, 6% had trained their own models, and 4% worked mainly on developing AI models for proteomics. The audience therefore consisted mostly of newcomers and consumers of existing models, with very few producers. About 20% of participants were already familiar with HUPO-PSI, which made the workshop a useful outreach opportunity for the initiative as a whole.\nThe following sections of this blog post cover the topics that were discussed during the workshop."
   },
   {
-    "objectID": "index.html#key-objectives",
-    "href": "index.html#key-objectives",
-    "title": "PSI-AI",
-    "section": "Key Objectives",
-    "text": "Key Objectives\n\n\n📊 Data accessibility Enhance metadata annotation for AI discoverability\n🔄 Harmonized data formats Endorse open formats like mzML & mzPeak\n⚡ Streamlined data reprocessing Promote ML-ready data processing workflows\n\n\n🎯 Benchmark resources Curate datasets and evaluation methods for AI development\n📋 Best practices Ensure ethical and effective workflows\n🤝 Community building Integrate existing community efforts"
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#what-ai-is-and-what-it-is-not",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#what-ai-is-and-what-it-is-not",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "What AI is, and what it is not",
+    "text": "What AI is, and what it is not\nThe terms AI, ML, DL, and generative AI (or genAI) are often used interchangeably, but they describe nested scopes. Artificial intelligence (AI) is the broadest category: any computational method that performs tasks normally associated with human intelligence. Machine learning (ML) is the subset of AI where a model learns patterns from data rather than following hand-coded rules. Deep learning (DL) is the subset of ML built on multi-layer neural networks. Generative AI (genAI), including large language models (LLMs) and image generators, is a further subset of DL that produces new content rather than a prediction or a label. In proteomics, AI is not only genAI: most established applications, such as retention time or fragmentation prediction, rely on earlier ML and DL approaches rather than generative models."
   },
   {
-    "objectID": "index.html#about-this-resource",
-    "href": "index.html#about-this-resource",
-    "title": "PSI-AI",
-    "section": "About This Resource",
-    "text": "About This Resource\nThis site serves as the dynamic hub for PSI-AI working group outputs, including:\n📚 Living Documentation Guidelines and standards that evolve with the field\n📋 Best Practice Guides Crowd-sourced recommendations\n🔗 Curated Links Community-curated resources and tools\n📰 Blog & News Updates and insights from the community\n\n\n\n\n\n\nNoteEveryone can contribute!\n\n\n\nWhether through commenting, writing documentation, sharing resources, or joining working groups - this platform thrives on community participation."
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#ai-in-proteomics",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#ai-in-proteomics",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "AI in proteomics",
+    "text": "AI in proteomics\n\nAI in proteomics broadly splits into two categories: Analytical AI and biological AI\n\nAI excels at recognizing patterns, much like humans, but with the speed and reproducibility of a computer. This capability translates directly into pattern recognition at scale: mining large volumes of proteomics data for biological insight that would be impractical to extract manually, moving from data and information toward knowledge. The current moment favors this shift more than any before it, since large volumes of public proteomics data are now available and compute has become considerably cheaper, the same two conditions that have driven AI adoption across science in general.\nApplications in proteomics broadly split into two categories. Analytical applications predict how peptides behave in the mass spectrometer, for example retention time or fragmentation. Biological applications extract meaning from the resulting measurements, for example biomarker predictors, tissue classification from protein quantification, and proteome foundation models."
   },
   {
-    "objectID": "index.html#get-involved",
-    "href": "index.html#get-involved",
-    "title": "PSI-AI",
-    "section": "Get Involved",
-    "text": "Get Involved\n\n\n🤝 Contribute content\n\nSubmit documentation\nShare best practices\nReview community submissions\nProvide feedback\n\n\n\n💬 Join discussions\n\nAttend community calls\nParticipate in the working group task forces\nComment on proposals\nShare project experiences\n\n\n\n\n\n\n\n\n\nNoteReady to start?\n\n\n\nJoin our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field. To get involved, please contact us at info at psi-ai dot org."
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#why-psi-ai",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#why-psi-ai",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "Why PSI-AI?",
+    "text": "Why PSI-AI?\n\nPSI-AI’s mission is to get the most out of AI for proteomics, responsibly and effectively\n\nIdeally, most effort in an AI project goes into building the model itself. In practice, a large share of that effort goes into finding suitable training data, filtering it, downloading it, and parsing it with custom, often slow, parsers. PSI-AI exists to close that gap through standardized file formats, community-curated resources, and shared conventions for data sharing, while also ensuring that AI models already in use are used optimally. In short: get the most out of AI for proteomics, responsibly and effectively. PSI-AI pursues two goals: making public proteomics data suitable for AI applications, and supporting and standardizing the use of AI in workflows that generate new data. These goals are organized into three tracks: standards and reproducible workflows, benchmarking, and responsible (re)use.\nEach track was covered by one of the workshop’s organizers.\n\nStandards and reproducible workflows\nRalf covered three ongoing standards efforts: mzPeak (Van Den Bossche et al. 2025), a scalable and interoperable format for raw mass spectrometry data; an AnnData-based (Virshup et al. 2024) representation for proteomics quantification, adapted from the format the single-cell community built for annotated data matrices; and an updated Minimum Information About a Proteomics Experiment (MIAPE) guideline that accounts for AI-specific reporting needs.\n\n\nBenchmarking\nRobbe introduced ProteoBench (Devreese et al. 2025), the community-curated platform for comparing proteomics data analysis workflows, and its planned extension toward benchmarking predictive models rather than the current identification and quantification benchmarks. This extension is the subject of a project submitted to the EuBIC-MS Hackathon 2027.\n\n\nResponsible (re)use\nMagnus covered ongoing discussions in the responsible (re)use track. On research integrity, he discussed the potential misuse of generative AI to synthesize artificial mass spectrometry data and the implications for scientific integrity. Here, he mentioned recent work from PSI-AI members (Neely et al. 2023; Adams et al. 2026). Magnus also discussed diversity among both researchers and research subjects in proteomics and the model biases that follow from it. Finally, on privacy, he discussed re-identifiability in mass-spectrometry-based proteomics data (Li et al. 2016; Boonen et al. 2019), an area where PSI-AI is still working out shared concepts and terminology. This track’s contribution to the EuBIC-MS Hackathon 2027 covers the provenance of raw mass spectrometry data."
   },
   {
-    "objectID": "charter/index.html",
-    "href": "charter/index.html",
-    "title": "Working group charter",
-    "section": "",
-    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant"
-  },
-  {
-    "objectID": "charter/index.html#focus-and-purpose",
-    "href": "charter/index.html#focus-and-purpose",
-    "title": "Working group charter",
-    "section": "Focus and Purpose",
-    "text": "Focus and Purpose\nThe goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure."
-  },
-  {
-    "objectID": "charter/index.html#goalsmilestones",
-    "href": "charter/index.html#goalsmilestones",
-    "title": "Working group charter",
-    "section": "Goals/Milestones",
-    "text": "Goals/Milestones\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#get-involved",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#get-involved",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "Get involved",
+    "text": "Get involved\nMore information on PSI-AI’s standards, benchmarks, and guidelines is available at psi-ai.org. If this work resonates, reach out at info at psi-ai dot org: PSI-AI welcomes new contributors to any of its three tracks."
   },
   {
     "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html",
@@ -137,6 +144,41 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPSI-AI in Rome: Setting the scaffolds of AI-readiness\n\n\n\ncommunity\n\nworkshop\n\n\n\nA recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across…\n\n\n\nTine Claeys, Ralf Gabriels, Samuel Wein\n\n\nMay 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHUPO 2025 workshop: What AI-ready proteomics data should look like\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.\n\n\n\nRalf Gabriels, Samuel Wein, Tine Claeys\n\n\nFeb 4, 2026\n\n\n\n\n\n\nNo matching items\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIMSC 2026 workshop: Is our proteomics data ready for AI?\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, covering what AI is, why it matters for proteomics, and the three PSI-AI tracks…\n\n\n\nRalf Gabriels, Magnus Palmblad, Robbe Devreese\n\n\nAug 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPSI-AI in Rome: Setting the scaffolds of AI-readiness\n\n\n\ncommunity\n\nworkshop\n\n\n\nA recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across…\n\n\n\nTine Claeys, Ralf Gabriels, Samuel Wein\n\n\nMay 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHUPO 2025 workshop: What AI-ready proteomics data should look like\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.\n\n\n\nRalf Gabriels, Samuel Wein, Tine Claeys\n\n\nFeb 4, 2026\n\n\n\n\n\n\nNo matching items\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PSI-AI",
+    "section": "",
+    "text": "The HUPO-PSI AI-readiness Working Group bridges the gap between proteomics data and the use of artificial intelligence. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure and community efforts."
+  },
+  {
+    "objectID": "index.html#mission",
+    "href": "index.html#mission",
+    "title": "PSI-AI",
+    "section": "",
+    "text": "The HUPO-PSI AI-readiness Working Group bridges the gap between proteomics data and the use of artificial intelligence. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure and community efforts."
+  },
+  {
+    "objectID": "index.html#key-objectives",
+    "href": "index.html#key-objectives",
+    "title": "PSI-AI",
+    "section": "Key Objectives",
+    "text": "Key Objectives\n\n\n📊 Data accessibility Enhance metadata annotation for AI discoverability\n🔄 Harmonized data formats Endorse open formats like mzML & mzPeak\n⚡ Streamlined data reprocessing Promote ML-ready data processing workflows\n\n\n🎯 Benchmark resources Curate datasets and evaluation methods for AI development\n📋 Best practices Ensure ethical and effective workflows\n🤝 Community building Integrate existing community efforts"
+  },
+  {
+    "objectID": "index.html#about-this-resource",
+    "href": "index.html#about-this-resource",
+    "title": "PSI-AI",
+    "section": "About This Resource",
+    "text": "About This Resource\nThis site serves as the dynamic hub for PSI-AI working group outputs, including:\n📚 Living Documentation Guidelines and standards that evolve with the field\n📋 Best Practice Guides Crowd-sourced recommendations\n🔗 Curated Links Community-curated resources and tools\n📰 Blog & News Updates and insights from the community\n\n\n\n\n\n\nNoteEveryone can contribute!\n\n\n\nWhether through commenting, writing documentation, sharing resources, or joining working groups - this platform thrives on community participation."
+  },
+  {
+    "objectID": "index.html#get-involved",
+    "href": "index.html#get-involved",
+    "title": "PSI-AI",
+    "section": "Get Involved",
+    "text": "Get Involved\n\n\n🤝 Contribute content\n\nSubmit documentation\nShare best practices\nReview community submissions\nProvide feedback\n\n\n\n💬 Join discussions\n\nAttend community calls\nParticipate in the working group task forces\nComment on proposals\nShare project experiences\n\n\n\n\n\n\n\n\n\nNoteReady to start?\n\n\n\nJoin our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field. To get involved, please contact us at info at psi-ai dot org."
   }
 ]
