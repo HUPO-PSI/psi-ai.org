@@ -7,25 +7,67 @@
     "text": "Co-chairs\nPSI-AI is led by a team of co-chairs who coordinate the working group’s strategy, prioritization, and delivery across the HUPO-PSI community. They ensure alignment with other PSI working groups and external stakeholders, and facilitate consensus on standards, guidelines, and resources that make proteomics data and workflows fit for modern AI/ML use.\n\n\n\n\n\n\n\nTine Claeys\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nSamuel Wein\n\nUniversity of Tübingen / OpenMS (DE)\n\n\n\n\n\n\nRalf Gabriels\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nWorking group members\nPSI-AI members form an international, cross-disciplinary community spanning proteomics standards development, computational proteomics, software engineering, repositories, benchmarking and reporting, curated dataset development, and ethics and privacy expertise to ensure interoperable, reproducible, compliant, and AI-ready proteomics.\n\n\n\n\n\n\n\nAhmad Lutfi\n\nTechnische Universität Berlin (DE)\n\n\n\n\n\n\nBen Neely\n\nNational Institute of Standards and Technology (US)\n\n\n\n\n\n\nCaroline Jachmann\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nCharlotte Adams\n\nUniversity of Antwerp (BE)\n\n\n\n\n\n\nHenry Webel\n\nTechnical University of Denmark (DK)\n\n\n\n\n\n\nIna Devos\n\nUniversity of Antwerp / VITO (BE)\n\n\n\n\n\n\nJonas Scheid\n\nUniversity Hospital Tübingen (DE)\n\n\n\n\n\n\nJulian Uszkoreit\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nKarin Schork\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nKevin Yang\n\nUniversity of Michigan (US)\n\n\n\n\n\n\nLisa Boatner\n\nChan Zuckerberg Initiative (US)\n\n\n\n\n\n\nMagnus Palmblad\n\nLeiden University Medical Center (NL)\n\n\n\n\n\n\nMaike Weber\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nParag Mallick\n\nStanford University / Nautilus Biotechnology (US)\n\n\n\n\n\n\nPatricia Cervera de la Cruz\n\nPHG Foundation (UK) / Ghent University (BE)\n\n\n\n\n\n\nShih-Yi (Winnie) Hsiung\n\nSoka University (Japan) / Taipei Medical University (Taiwan)\n\n\n\n\n\n\nThomas Naake\n\nNational Metrology Institute (DE)\n\n\n\n\nPSI-AI is strengthened by many additional contributors across the wider proteomics and data standards community whose insights and efforts support this work, even if they are not individually shown here.\n\n\nJoin PSI-AI\nPSI-AI welcomes participation from the wider community, including researchers, tool developers, repository teams, standards contributors, and ethics and legal experts. To get involved, please contact us at info at psi-ai dot org.\n\n\n\n\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
   },
   {
-    "objectID": "charter/index.html",
-    "href": "charter/index.html",
-    "title": "Working group charter",
+    "objectID": "governance/index.html",
+    "href": "governance/index.html",
+    "title": "Governance",
     "section": "",
-    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant"
+    "text": "PSI-AI is a working group of the HUPO Proteomics Standards Initiative (HUPO-PSI). The documents below describe how the working group is organized and what is expected of everyone who takes part in it.\n\nWorking group charter: the working group’s purpose, goals, and chairs.\nCode of conduct: expected behavior in all PSI-AI community spaces, and how to report a violation.\n\n\n\n\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
   },
   {
-    "objectID": "charter/index.html#focus-and-purpose",
-    "href": "charter/index.html#focus-and-purpose",
-    "title": "Working group charter",
-    "section": "Focus and Purpose",
-    "text": "Focus and Purpose\nThe goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure."
+    "objectID": "governance/code-of-conduct/index.html",
+    "href": "governance/code-of-conduct/index.html",
+    "title": "Code of conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
   },
   {
-    "objectID": "charter/index.html#goalsmilestones",
-    "href": "charter/index.html#goalsmilestones",
-    "title": "Working group charter",
-    "section": "Goals/Milestones",
-    "text": "Goals/Milestones\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
+    "objectID": "governance/code-of-conduct/index.html#our-pledge",
+    "href": "governance/code-of-conduct/index.html#our-pledge",
+    "title": "Code of conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#our-standards",
+    "href": "governance/code-of-conduct/index.html#our-standards",
+    "title": "Code of conduct",
+    "section": "Our standards",
+    "text": "Our standards\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#scope",
+    "href": "governance/code-of-conduct/index.html#scope",
+    "title": "Code of conduct",
+    "section": "Scope",
+    "text": "Scope\nThis code of conduct applies within all community spaces of PSI-AI, including working group calls, meetings, workshops, and other events organized under the PSI-AI name, as well as online spaces such as mailing lists, chat channels, and code repositories. It also applies when an individual is officially representing the community in public spaces, for example when using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#community-leaders",
+    "href": "governance/code-of-conduct/index.html#community-leaders",
+    "title": "Code of conduct",
+    "section": "Community leaders",
+    "text": "Community leaders\nThe community leaders of PSI-AI are the chair and co-chairs of the working group, as listed in the working group charter. Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this code of conduct, and will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#reporting",
+    "href": "governance/code-of-conduct/index.html#reporting",
+    "title": "Code of conduct",
+    "section": "Reporting",
+    "text": "Reporting\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at info at psi-ai dot org. If a report concerns one of the community leaders, it may instead be sent directly to any of the other community leaders. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#enforcement-guidelines",
+    "href": "governance/code-of-conduct/index.html#enforcement-guidelines",
+    "title": "Code of conduct",
+    "section": "Enforcement guidelines",
+    "text": "Enforcement guidelines\nCommunity leaders will follow these community impact guidelines in determining the consequences for any action they deem in violation of this code of conduct.\n\n1. Correction\nCommunity impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n2. Warning\nCommunity impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n3. Temporary ban\nCommunity impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n4. Permanent ban\nCommunity impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#attribution",
+    "href": "governance/code-of-conduct/index.html#attribution",
+    "title": "Code of conduct",
+    "section": "Attribution",
+    "text": "Attribution\nThis code of conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity impact guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq."
   },
   {
     "objectID": "blog/posts/2026-02-04-hupo-workshop/index.html",
@@ -131,6 +173,27 @@
     "title": "Blog",
     "section": "",
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIMSC 2026 workshop: Is our proteomics data ready for AI?\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, with updates from the three PSI-AI tracks: standards and reproducible workflows…\n\n\n\nRalf Gabriels, Magnus Palmblad, Robbe Devreese\n\n\nAug 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPSI-AI in Rome: Setting the scaffolds of AI-readiness\n\n\n\ncommunity\n\nworkshop\n\n\n\nA recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across…\n\n\n\nTine Claeys, Ralf Gabriels, Samuel Wein\n\n\nMay 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHUPO 2025 workshop: What AI-ready proteomics data should look like\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.\n\n\n\nRalf Gabriels, Samuel Wein, Tine Claeys\n\n\nFeb 4, 2026\n\n\n\n\n\n\nNo matching items\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
+  },
+  {
+    "objectID": "governance/charter/index.html",
+    "href": "governance/charter/index.html",
+    "title": "Working group charter",
+    "section": "",
+    "text": "Status (New/Update): New\nGroup Name: HUPO-PSI AI-readiness Working Group\nChair: Tine Claeys (tineclae.claeys at ugent dot be), VIB - Ghent University, Ghent, Belgium\nCo-Chairs:\n\nSamuel Wein (samuel.wein at uni-tuebingen dot de), University of Tübingen – OpenMS, Tübingen, Germany\nRalf Gabriels (ralf.gabriels at ugent dot be), Ghent University – VIB, Ghent, Belgium\n\nSecretary: Vacant"
+  },
+  {
+    "objectID": "governance/charter/index.html#focus-and-purpose",
+    "href": "governance/charter/index.html#focus-and-purpose",
+    "title": "Working group charter",
+    "section": "Focus and Purpose",
+    "text": "Focus and Purpose\nThe goal of the PSI-AI working group is to bridge the gap between artificial intelligence and public proteomics data. We focus on two complementary goals. The first is to make public proteomics data suitable for AI applications. The second is to support and standardize the use of AI in workflows that generate new data. We work toward these goals through the use of community standards and reproducible and accessible pipelines. Our aim is to integrate with, not duplicate, existing infrastructure."
+  },
+  {
+    "objectID": "governance/charter/index.html#goalsmilestones",
+    "href": "governance/charter/index.html#goalsmilestones",
+    "title": "Working group charter",
+    "section": "Goals/Milestones",
+    "text": "Goals/Milestones\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
   },
   {
     "objectID": "index.html",

@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.psi-ai.org/members/index.html</loc>
-    <lastmod>2026-11-12T12:00:43.859Z</lastmod>
+    <lastmod>2026-11-12T12:16:07.243Z</lastmod>
   </url>
   <url>
-    <loc>https://www.psi-ai.org/charter/index.html</loc>
-    <lastmod>2026-11-12T12:00:43.814Z</lastmod>
+    <loc>https://www.psi-ai.org/governance/index.html</loc>
+    <lastmod>2026-11-12T12:16:07.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.psi-ai.org/governance/code-of-conduct/index.html</loc>
+    <lastmod>2026-11-12T12:16:07.213Z</lastmod>
   </url>
   <url>
     <loc>https://www.psi-ai.org/blog/posts/2026-02-04-hupo-workshop/index.html</loc>
-    <lastmod>2026-11-12T12:00:43.800Z</lastmod>
+    <lastmod>2026-11-12T12:16:07.203Z</lastmod>
   </url>
   <url>
     <loc>https://www.psi-ai.org/blog/posts/2026-08-26-imsc-workshop/index.html</loc>
-    <lastmod>2026-11-12T12:00:43.814Z</lastmod>
+    <lastmod>2026-11-12T12:16:07.212Z</lastmod>
   </url>
   <url>
     <loc>https://www.psi-ai.org/blog/posts/2026-05-27-psi-spring-meeting/index.html</loc>
-    <lastmod>2026-11-12T12:00:43.813Z</lastmod>
+    <lastmod>2026-11-12T12:16:07.211Z</lastmod>
   </url>
   <url>
     <loc>https://www.psi-ai.org/blog/index.html</loc>
-    <lastmod>2026-11-12T12:00:43.798Z</lastmod>
+    <lastmod>2026-11-12T12:16:07.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.psi-ai.org/governance/charter/index.html</loc>
+    <lastmod>2026-11-12T12:16:07.213Z</lastmod>
   </url>
   <url>
     <loc>https://www.psi-ai.org/index.html</loc>
-    <lastmod>2026-11-12T12:00:43.814Z</lastmod>
+    <lastmod>2026-11-12T12:16:07.213Z</lastmod>
   </url>
 </urlset>
