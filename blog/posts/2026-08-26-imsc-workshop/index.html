@@ -10,7 +10,7 @@
 <meta name="author" content="Magnus Palmblad">
 <meta name="author" content="Robbe Devreese">
 <meta name="dcterms.date" content="2026-08-26">
-<meta name="description" content="Recap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, covering what AI is, why it matters for proteomics, and the three PSI-AI tracks: standards, benchmarking, and responsible reuse.">
+<meta name="description" content="Recap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, with updates from the three PSI-AI tracks: standards and reproducible workflows, benchmarking, and responsible (re)use.">
 
 <title>IMSC 2026 workshop: Is our proteomics data ready for AI? – PSI-AI</title>
 <style>
@@ -104,7 +104,7 @@ div.csl-indent {
 
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="IMSC 2026 workshop: Is our proteomics data ready for AI? – PSI-AI">
-<meta property="og:description" content="Recap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, covering what AI is, why it matters for proteomics, and the three PSI-AI tracks: standards, benchmarking, and responsible reuse.">
+<meta property="og:description" content="Recap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, with updates from the three PSI-AI tracks: standards and reproducible workflows, benchmarking, and responsible (re)use.">
 <meta property="og:image" content="https://www.psi-ai.org/blog/posts/2026-08-26-imsc-workshop/featured.jpg">
 <meta property="og:site_name" content="PSI-AI">
 <meta property="og:locale" content="en_US">
@@ -162,9 +162,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#what-ai-is-and-what-it-is-not" id="toc-what-ai-is-and-what-it-is-not" class="nav-link" data-scroll-target="#what-ai-is-and-what-it-is-not">What AI is, and what it is not</a></li>
-  <li><a href="#ai-in-proteomics" id="toc-ai-in-proteomics" class="nav-link" data-scroll-target="#ai-in-proteomics">AI in proteomics</a></li>
-  <li><a href="#why-psi-ai" id="toc-why-psi-ai" class="nav-link" data-scroll-target="#why-psi-ai">Why PSI-AI?</a>
+  <li><a href="#updates-from-the-psi-ai-tracks" id="toc-updates-from-the-psi-ai-tracks" class="nav-link" data-scroll-target="#updates-from-the-psi-ai-tracks">Updates from the PSI-AI tracks</a>
   <ul class="collapse">
   <li><a href="#standards-and-reproducible-workflows" id="toc-standards-and-reproducible-workflows" class="nav-link" data-scroll-target="#standards-and-reproducible-workflows">Standards and reproducible workflows</a></li>
   <li><a href="#benchmarking" id="toc-benchmarking" class="nav-link" data-scroll-target="#benchmarking">Benchmarking</a></li>
@@ -189,7 +187,7 @@ div.csl-indent {
 
 <div>
   <div class="description">
-    Recap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, covering what AI is, why it matters for proteomics, and the three PSI-AI tracks: standards, benchmarking, and responsible reuse.
+    Recap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, with updates from the three PSI-AI tracks: standards and reproducible workflows, benchmarking, and responsible (re)use.
   </div>
 </div>
 
@@ -251,27 +249,11 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>At the 2026 International Mass Spectrometry Conference (IMSC) in Lyon (France), Ralf Gabriels (VIB-UGent), Magnus Palmblad (LUMC), and Robbe Devreese (VIB-UGent) ran a workshop titled <em>“Is our proteomics data ready for AI? A PSI-AI workshop”</em>, on behalf of the HUPO-PSI <span class="citation" data-cites="Deutsch2023">(<a href="#ref-Deutsch2023" role="doc-biblioref">Deutsch et al. 2023</a>)</span> AI-readiness Working Group (PSI-AI). About 60 participants attended.</p>
 <p>A digital poll opened the session by asking what participants expected to get out of it: 87% came to learn, 11% to discuss, and 2% to contribute. Given this near-unanimous appetite for learning, we pivoted the workshop toward education rather than open discussion. A second poll mapped the group’s experience with AI in proteomics: 42% reported close to no experience, 23% used proteomics software that embeds AI models without building or training them, 25% had applied existing AI models to their own data, 6% had trained their own models, and 4% worked mainly on developing AI models for proteomics. The audience therefore consisted mostly of newcomers and consumers of existing models, with very few producers. About 20% of participants were already familiar with HUPO-PSI, which made the workshop a useful outreach opportunity for the initiative as a whole.</p>
-<p>The following sections of this blog post cover the topics that were discussed during the workshop.</p>
+<p>After the polls, an introduction to HUPO-PSI and the PSI-AI working group led into background on what AI is (and is not), how AI is applied in proteomics, and why PSI-AI was set up. The rest of the workshop gave an update on each of PSI-AI’s three tracks, summarized below.</p>
 </section>
-<section id="what-ai-is-and-what-it-is-not" class="level2">
-<h2 class="anchored" data-anchor-id="what-ai-is-and-what-it-is-not">What AI is, and what it is not</h2>
-<p>The terms AI, ML, DL, and generative AI (or genAI) are often used interchangeably, but they describe nested scopes. Artificial intelligence (AI) is the broadest category: any computational method that performs tasks normally associated with human intelligence. Machine learning (ML) is the subset of AI where a model learns patterns from data rather than following hand-coded rules. Deep learning (DL) is the subset of ML built on multi-layer neural networks. Generative AI (genAI), including large language models (LLMs) and image generators, is a further subset of DL that produces new content rather than a prediction or a label. In proteomics, AI is not only genAI: most established applications, such as retention time or fragmentation prediction, rely on earlier ML and DL approaches rather than generative models.</p>
-</section>
-<section id="ai-in-proteomics" class="level2">
-<h2 class="anchored" data-anchor-id="ai-in-proteomics">AI in proteomics</h2>
-<blockquote class="blockquote">
-<p>AI in proteomics broadly splits into two categories: Analytical AI and biological AI</p>
-</blockquote>
-<p>AI excels at recognizing patterns, much like humans, but with the speed and reproducibility of a computer. This capability translates directly into pattern recognition at scale: mining large volumes of proteomics data for biological insight that would be impractical to extract manually, moving from data and information toward knowledge. The current moment favors this shift more than any before it, since large volumes of public proteomics data are now available and compute has become considerably cheaper, the same two conditions that have driven AI adoption across science in general.</p>
-<p>Applications in proteomics broadly split into two categories. Analytical applications predict how peptides behave in the mass spectrometer, for example retention time or fragmentation. Biological applications extract meaning from the resulting measurements, for example biomarker predictors, tissue classification from protein quantification, and proteome foundation models.</p>
-</section>
-<section id="why-psi-ai" class="level2">
-<h2 class="anchored" data-anchor-id="why-psi-ai">Why PSI-AI?</h2>
-<blockquote class="blockquote">
-<p>PSI-AI’s mission is to get the most out of AI for proteomics, responsibly and effectively</p>
-</blockquote>
-<p>Ideally, most effort in an AI project goes into building the model itself. In practice, a large share of that effort goes into finding suitable training data, filtering it, downloading it, and parsing it with custom, often slow, parsers. PSI-AI exists to close that gap through standardized file formats, community-curated resources, and shared conventions for data sharing, while also ensuring that AI models already in use are used optimally. In short: get the most out of AI for proteomics, responsibly and effectively. PSI-AI pursues two goals: making public proteomics data suitable for AI applications, and supporting and standardizing the use of AI in workflows that generate new data. These goals are organized into three tracks: standards and reproducible workflows, benchmarking, and responsible (re)use.</p>
-<p>Each track was covered by one of the workshop’s organizers.</p>
+<section id="updates-from-the-psi-ai-tracks" class="level2">
+<h2 class="anchored" data-anchor-id="updates-from-the-psi-ai-tracks">Updates from the PSI-AI tracks</h2>
+<p>Each track was presented by one of the workshop’s organizers.</p>
 <section id="standards-and-reproducible-workflows" class="level3">
 <h3 class="anchored" data-anchor-id="standards-and-reproducible-workflows">Standards and reproducible workflows</h3>
 <p>Ralf covered three ongoing standards efforts: mzPeak <span class="citation" data-cites="VanDenBossche2025">(<a href="#ref-VanDenBossche2025" role="doc-biblioref">Van Den Bossche et al. 2025</a>)</span>, a scalable and interoperable format for raw mass spectrometry data; an AnnData-based <span class="citation" data-cites="Virshup2024">(<a href="#ref-Virshup2024" role="doc-biblioref">Virshup et al. 2024</a>)</span> representation for proteomics quantification, adapted from the format the single-cell community built for annotated data matrices; and an updated Minimum Information About a Proteomics Experiment (MIAPE) guideline that accounts for AI-specific reporting needs.</p>
