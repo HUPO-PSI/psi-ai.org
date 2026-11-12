@@ -1,6 +1,8 @@
 ---
 title: Working group charter
 title-block-banner: true
+aliases:
+  - /charter/
 date-modified: "2025-06-13"
 ---
 

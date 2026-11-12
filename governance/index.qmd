@@ -1,0 +1,10 @@
+---
+title: Governance
+title-block-banner: true
+toc: false
+---
+
+PSI-AI is a working group of the [HUPO Proteomics Standards Initiative](https://www.psidev.info) (HUPO-PSI). The documents below describe how the working group is organized and what is expected of everyone who takes part in it.
+
+- [**Working group charter**](charter/index.qmd): the working group's purpose, goals, and chairs.
+- [**Code of conduct**](code-of-conduct/index.qmd): expected behavior in all PSI-AI community spaces, and how to report a violation.

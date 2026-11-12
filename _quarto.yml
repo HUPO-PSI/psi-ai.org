@@ -17,8 +17,12 @@ website:
         text: Home
       - href: members/index.qmd
         text: Members
-      - href: charter/index.qmd
-        text: Charter
+      - text: Governance
+        menu:
+          - href: governance/charter/index.qmd
+            text: Charter
+          - href: governance/code-of-conduct/index.qmd
+            text: Code of conduct
       - href: blog/index.qmd
         text: Blog
 
