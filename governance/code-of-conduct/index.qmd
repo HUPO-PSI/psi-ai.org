@@ -6,7 +6,7 @@ date-modified: "2026-11-12"
 
 ## Our pledge
 
-We as members, contributors, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
+We as members, contributors, participants, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
@@ -17,6 +17,9 @@ Examples of behavior that contributes to a positive environment for our communit
 - Demonstrating empathy and kindness toward other people
 - Being respectful of differing opinions, viewpoints, and experiences
 - Giving and gracefully accepting constructive feedback
+- Making room for others to speak in meetings and discussions, including newcomers and non-native English speakers
+- Giving appropriate credit for the ideas and work of others
+- Respecting the confidentiality of unpublished work shared within the community
 - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
 - Focusing on what is best not just for us as individuals, but for the overall community
 
@@ -26,21 +29,24 @@ Examples of unacceptable behavior include:
 - Trolling, insulting or derogatory comments, and personal or political attacks
 - Public or private harassment
 - Publishing others' private information, such as a physical or email address, without their explicit permission
+- Sustained disruption of meetings, talks, or discussions
+- Sharing unpublished data, results, or ideas presented in community spaces without the presenter's permission
+- Recording meetings, or sharing recordings or screenshots of them, without the knowledge of the participants
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
 ## Scope
 
-This code of conduct applies within all community spaces of PSI-AI, including working group calls, meetings, workshops, and other events organized under the PSI-AI name, as well as online spaces such as mailing lists, chat channels, and code repositories. It also applies when an individual is officially representing the community in public spaces, for example when using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+This code of conduct applies within all community spaces of PSI-AI, including working group calls, meetings, workshops, and other events organized under the PSI-AI name, as well as online spaces such as mailing lists, chat channels, and code repositories. It also applies when an individual is officially representing the community in public spaces, for example when using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event. At events organized by other parties, such as PSI-AI sessions at conferences, the host's code of conduct applies in addition to this one.
 
 ## Community leaders
 
 The community leaders of PSI-AI are the chair and co-chairs of the working group, as listed in the [working group charter](../charter/index.qmd). Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this code of conduct, and will communicate reasons for moderation decisions when appropriate.
+Community leaders have the right and responsibility to act on behavior that is not aligned with this code of conduct, in any community space. This includes interrupting or redirecting a discussion, muting or removing a participant from an online meeting, asking a participant to leave a session or event, and removing or editing messages, comments, or other contributions in online spaces. Community leaders will communicate reasons for moderation decisions when appropriate.
 
 ## Reporting
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at [info@psi-ai.org](mailto:info@psi-ai.org). If a report concerns one of the community leaders, it may instead be sent directly to any of the other community leaders. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at [info@psi-ai.org](mailto:info@psi-ai.org). If a report concerns one or more community leaders, or if the reporter prefers not to contact them, it may instead be sent to the [HUPO-PSI Officers](https://www.psidev.info/roles-and-responsibilities). Such reports are handled by Officers who are not community leaders of PSI-AI. During meetings and events, incidents may also be reported in person to any community leader. All complaints will be reviewed and investigated promptly and fairly. Community leaders who are involved in a reported incident do not take part in handling it.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -64,13 +70,13 @@ Community leaders will follow these community impact guidelines in determining t
 
 **Community impact:** A serious violation of community standards, including sustained inappropriate behavior.
 
-**Consequence:** A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
+**Consequence:** A temporary ban from working group calls, events, and online spaces, and from any public communication with the community, for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
 
 ### 4. Permanent ban
 
 **Community impact:** Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
 
-**Consequence:** A permanent ban from any sort of public interaction within the community.
+**Consequence:** A permanent ban from all working group calls, events, and online spaces, and from any public interaction within the community.
 
 ## Attribution
 
