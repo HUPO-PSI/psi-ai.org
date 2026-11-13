@@ -8,3 +8,4 @@ PSI-AI is a working group of the [HUPO Proteomics Standards Initiative](https://
 
 - [**Working group charter**](charter/index.qmd): the working group's purpose, goals, and chairs.
 - [**Code of conduct**](code-of-conduct/index.qmd): expected behavior in all PSI-AI community spaces, and how to report a violation.
+- [**Decision making**](decision-making/index.qmd): how the working group makes decisions, and how members can propose and object to them.

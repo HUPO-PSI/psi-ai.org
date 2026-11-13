@@ -23,6 +23,8 @@ website:
             text: Charter
           - href: governance/code-of-conduct/index.qmd
             text: Code of conduct
+          - href: governance/decision-making/index.qmd
+            text: Decision making
       - href: blog/index.qmd
         text: Blog
 

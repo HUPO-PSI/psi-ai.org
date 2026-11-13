@@ -1,0 +1,37 @@
+---
+title: Decision making
+title-block-banner: true
+date-modified: "2026-11-13"
+---
+
+This page outlines the principles and process that PSI-AI follows when making decisions. It is intended to provide transparency and predictability to the community, and to ensure that decisions are made in a way that is consistent with the goals of the working group.
+
+## Principles of decision making
+
+- **Embrace differing viewpoints.** When someone raises a concern, treat it as an opportunity to refine the proposal and to uncover and discuss the values underlying that concern. Dissent should be approached in a friendly, collaborative spirit.
+
+- **Thoroughly understand and collaboratively address concerns.** No concern can be resolved without first comprehending it, including the values behind it. We demonstrate our understanding by documenting the issue and considering potential trade-offs in light of the goals of the working group. Our goal is to find solutions that satisfy all parties' values, rather than merely seeking compromises that are acceptable but do not fully address everyone's concerns.
+
+- **Avoid forcing irreversible decisions.** Whenever possible, decisions should be made in a reversible manner. If a choice that is hard to reverse must be made, heightened care must be taken to consider dissent. In such cases, attempt to find a better alternative, establish common ground that can lead to consensus, or propose an intermediate step that addresses the same need while allowing further evaluation. If none of these paths are feasible, consider taking no action at all, as refraining from change should generally be the simpler option. The threshold for moving forward with an irreversible decision in spite of an objection should be high.
+
+- **Respect expertise.** When working through a concern, or in situations where an objection might be overridden, place considerable weight on the insights and recommendations of knowledgeable individuals. This includes experts in the relevant field, members of other HUPO-PSI working groups, and leaders or contributors of related projects and initiatives.
+
+- **Document the rationale.** Documenting the rationale fosters consistent, high-quality decisions. Even if an objection is ultimately not sustained, it should always be recorded, along with the reasons for the choice to proceed and any remaining open questions to revisit. The member who originally raised the concern has the right to draft this record, framing any unresolved issues (within reasonable bounds).
+
+- **Consensus does not require unanimity.** In this context, consensus means that every voice has been heard and every concern addressed, even if some objections are not deemed blocking. The working group must collectively consider the final outcome acceptable, but this does not imply complete agreement from every individual.
+
+## Decision-making process
+
+1. **Proposal.** A member of the working group proposes a decision on the mailing list, during a working group call, or in a discussion thread in the relevant repository. The proposal should include a clear description of the problem, the proposed solution, and the rationale behind it.
+
+2. **Discussion.** The working group discusses the proposal, asking questions and raising concerns. The goal is to ensure that everyone understands the proposal and its implications, and to identify any potential issues that need to be addressed.
+
+3. **Resolution.** The working group reaches a decision by consensus. If there are unresolved concerns, the proposal may be revised or postponed until they can be addressed. If consensus cannot be reached, the proposal is escalated to the core team.
+
+4. **Escalation (optional).** If the working group is unable to reach consensus, the core team of PSI-AI (see the [working group charter](../charter/index.qmd)), discusses the proposal further. They may accept the proposal as is, request revisions, or reject it. The outcome and its rationale are communicated back to the working group in the place where the proposal was made.
+
+5. **Implementation.** Once a decision has been reached, the proposal is implemented by the member who proposed it, or by another member who volunteers to do so. The implementation should follow the proposal, and is reviewed by the working group following the same process.
+
+## Attribution
+
+This page is adapted from the [decision-making page of the Rusteomics project](https://github.com/rusteomics/rusteomics.github.io/blob/main/src/organization/decision-making.md), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The Rusteomics principles were in turn adapted from the [Rust decision-making process](https://github.com/rust-lang/lang-team/blob/401f90116f28f07fd7c4680869add68f71441a2a/src/decision_process.md), licensed under MIT/Apache-2.0. The text was adapted to the context of PSI-AI.
