@@ -7,69 +7,6 @@
     "text": "Co-chairs\nPSI-AI is led by a team of co-chairs who coordinate the working group’s strategy, prioritization, and delivery across the HUPO-PSI community. They ensure alignment with other PSI working groups and external stakeholders, and facilitate consensus on standards, guidelines, and resources that make proteomics data and workflows fit for modern AI/ML use.\n\n\n\n\n\n\n\nTine Claeys\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nSamuel Wein\n\nUniversity of Tübingen / OpenMS (DE)\n\n\n\n\n\n\nRalf Gabriels\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nWorking group members\nPSI-AI members form an international, cross-disciplinary community spanning proteomics standards development, computational proteomics, software engineering, repositories, benchmarking and reporting, curated dataset development, and ethics and privacy expertise to ensure interoperable, reproducible, compliant, and AI-ready proteomics.\n\n\n\n\n\n\n\nAhmad Lutfi\n\nTechnische Universität Berlin (DE)\n\n\n\n\n\n\nBen Neely\n\nNational Institute of Standards and Technology (US)\n\n\n\n\n\n\nCaroline Jachmann\n\nVIB / Ghent University (BE)\n\n\n\n\n\n\nCharlotte Adams\n\nUniversity of Antwerp (BE)\n\n\n\n\n\n\nHenry Webel\n\nTechnical University of Denmark (DK)\n\n\n\n\n\n\nIna Devos\n\nUniversity of Antwerp / VITO (BE)\n\n\n\n\n\n\nJonas Scheid\n\nUniversity Hospital Tübingen (DE)\n\n\n\n\n\n\nJulian Uszkoreit\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nKarin Schork\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nKevin Yang\n\nUniversity of Michigan (US)\n\n\n\n\n\n\nLisa Boatner\n\nChan Zuckerberg Initiative (US)\n\n\n\n\n\n\nMagnus Palmblad\n\nLeiden University Medical Center (NL)\n\n\n\n\n\n\nMaike Weber\n\nRuhr University Bochum (DE)\n\n\n\n\n\n\nParag Mallick\n\nStanford University / Nautilus Biotechnology (US)\n\n\n\n\n\n\nPatricia Cervera de la Cruz\n\nPHG Foundation (UK) / Ghent University (BE)\n\n\n\n\n\n\nShih-Yi (Winnie) Hsiung\n\nSoka University (Japan) / Taipei Medical University (Taiwan)\n\n\n\n\n\n\nThomas Naake\n\nNational Metrology Institute (DE)\n\n\n\n\nPSI-AI is strengthened by many additional contributors across the wider proteomics and data standards community whose insights and efforts support this work, even if they are not individually shown here.\n\n\nJoin PSI-AI\nPSI-AI welcomes participation from the wider community, including researchers, tool developers, repository teams, standards contributors, and ethics and legal experts. To get involved, please contact us at info at psi-ai dot org.\n\n\n\n\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
   },
   {
-    "objectID": "governance/index.html",
-    "href": "governance/index.html",
-    "title": "Governance",
-    "section": "",
-    "text": "PSI-AI is a working group of the HUPO Proteomics Standards Initiative (HUPO-PSI). The documents below describe how the working group is organized and what is expected of everyone who takes part in it.\n\nWorking group charter: the working group’s purpose, goals, and chairs.\nCode of conduct: expected behavior in all PSI-AI community spaces, and how to report a violation.\n\n\n\n\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html",
-    "href": "governance/code-of-conduct/index.html",
-    "title": "Code of conduct",
-    "section": "",
-    "text": "We as members, contributors, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html#our-pledge",
-    "href": "governance/code-of-conduct/index.html#our-pledge",
-    "title": "Code of conduct",
-    "section": "",
-    "text": "We as members, contributors, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html#our-standards",
-    "href": "governance/code-of-conduct/index.html#our-standards",
-    "title": "Code of conduct",
-    "section": "Our standards",
-    "text": "Our standards\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html#scope",
-    "href": "governance/code-of-conduct/index.html#scope",
-    "title": "Code of conduct",
-    "section": "Scope",
-    "text": "Scope\nThis code of conduct applies within all community spaces of PSI-AI, including working group calls, meetings, workshops, and other events organized under the PSI-AI name, as well as online spaces such as mailing lists, chat channels, and code repositories. It also applies when an individual is officially representing the community in public spaces, for example when using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html#community-leaders",
-    "href": "governance/code-of-conduct/index.html#community-leaders",
-    "title": "Code of conduct",
-    "section": "Community leaders",
-    "text": "Community leaders\nThe community leaders of PSI-AI are the chair and co-chairs of the working group, as listed in the working group charter. Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this code of conduct, and will communicate reasons for moderation decisions when appropriate."
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html#reporting",
-    "href": "governance/code-of-conduct/index.html#reporting",
-    "title": "Code of conduct",
-    "section": "Reporting",
-    "text": "Reporting\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at info at psi-ai dot org. If a report concerns one of the community leaders, it may instead be sent directly to any of the other community leaders. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html#enforcement-guidelines",
-    "href": "governance/code-of-conduct/index.html#enforcement-guidelines",
-    "title": "Code of conduct",
-    "section": "Enforcement guidelines",
-    "text": "Enforcement guidelines\nCommunity leaders will follow these community impact guidelines in determining the consequences for any action they deem in violation of this code of conduct.\n\n1. Correction\nCommunity impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n2. Warning\nCommunity impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n3. Temporary ban\nCommunity impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n4. Permanent ban\nCommunity impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
-  },
-  {
-    "objectID": "governance/code-of-conduct/index.html#attribution",
-    "href": "governance/code-of-conduct/index.html#attribution",
-    "title": "Code of conduct",
-    "section": "Attribution",
-    "text": "Attribution\nThis code of conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity impact guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq."
-  },
-  {
     "objectID": "blog/posts/2026-02-04-hupo-workshop/index.html",
     "href": "blog/posts/2026-02-04-hupo-workshop/index.html",
     "title": "HUPO 2025 workshop: What AI-ready proteomics data should look like",
@@ -112,67 +49,18 @@
     "text": "What PSI-AI takes forward\nAcross all three tracks, participants repeatedly asked for (i) explicit provenance, (ii) structured, machine-checkable metadata—especially experimental design, (iii) validator tooling with actionable error messages, and (iv) alignment with existing PSI standards rather than parallel reinvention. In collaboration with other PSI working groups and stakeholders, PSI-AI will use these workshop outcomes to prioritize minimal schemas/checklists, CV mappings, reference conversions, and validation/reporting tools, and to package the results as worked examples that can be adopted by software developers, repositories, and researchers.\nTo join the effort, contact info at psi-ai dot org."
   },
   {
-    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html",
-    "href": "blog/posts/2026-08-26-imsc-workshop/index.html",
-    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
-    "section": "",
-    "text": "At the 2026 International Mass Spectrometry Conference (IMSC) in Lyon (France), Ralf Gabriels (VIB-UGent), Magnus Palmblad (LUMC), and Robbe Devreese (VIB-UGent) ran a workshop titled “Is our proteomics data ready for AI? A PSI-AI workshop”, on behalf of the HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group (PSI-AI). About 60 participants attended.\nA digital poll opened the session by asking what participants expected to get out of it: 87% came to learn, 11% to discuss, and 2% to contribute. Given this near-unanimous appetite for learning, we pivoted the workshop toward education rather than open discussion. A second poll mapped the group’s experience with AI in proteomics: 42% reported close to no experience, 23% used proteomics software that embeds AI models without building or training them, 25% had applied existing AI models to their own data, 6% had trained their own models, and 4% worked mainly on developing AI models for proteomics. The audience therefore consisted mostly of newcomers and consumers of existing models, with very few producers. About 20% of participants were already familiar with HUPO-PSI, which made the workshop a useful outreach opportunity for the initiative as a whole.\nAfter the polls, an introduction to HUPO-PSI and the PSI-AI working group led into background on what AI is (and is not), how AI is applied in proteomics, and why PSI-AI was set up. The rest of the workshop gave an update on each of PSI-AI’s three tracks, summarized below."
-  },
-  {
-    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#introduction",
-    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#introduction",
-    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
-    "section": "",
-    "text": "At the 2026 International Mass Spectrometry Conference (IMSC) in Lyon (France), Ralf Gabriels (VIB-UGent), Magnus Palmblad (LUMC), and Robbe Devreese (VIB-UGent) ran a workshop titled “Is our proteomics data ready for AI? A PSI-AI workshop”, on behalf of the HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group (PSI-AI). About 60 participants attended.\nA digital poll opened the session by asking what participants expected to get out of it: 87% came to learn, 11% to discuss, and 2% to contribute. Given this near-unanimous appetite for learning, we pivoted the workshop toward education rather than open discussion. A second poll mapped the group’s experience with AI in proteomics: 42% reported close to no experience, 23% used proteomics software that embeds AI models without building or training them, 25% had applied existing AI models to their own data, 6% had trained their own models, and 4% worked mainly on developing AI models for proteomics. The audience therefore consisted mostly of newcomers and consumers of existing models, with very few producers. About 20% of participants were already familiar with HUPO-PSI, which made the workshop a useful outreach opportunity for the initiative as a whole.\nAfter the polls, an introduction to HUPO-PSI and the PSI-AI working group led into background on what AI is (and is not), how AI is applied in proteomics, and why PSI-AI was set up. The rest of the workshop gave an update on each of PSI-AI’s three tracks, summarized below."
-  },
-  {
-    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#updates-from-the-psi-ai-tracks",
-    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#updates-from-the-psi-ai-tracks",
-    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
-    "section": "Updates from the PSI-AI tracks",
-    "text": "Updates from the PSI-AI tracks\nEach track was presented by one of the workshop’s organizers.\n\nStandards and reproducible workflows\nRalf covered three ongoing standards efforts: mzPeak (Van Den Bossche et al. 2025), a scalable and interoperable format for raw mass spectrometry data; an AnnData-based (Virshup et al. 2024) representation for proteomics quantification, adapted from the format the single-cell community built for annotated data matrices; and an updated Minimum Information About a Proteomics Experiment (MIAPE) guideline that accounts for AI-specific reporting needs.\n\n\nBenchmarking\nRobbe introduced ProteoBench (Devreese et al. 2025), the community-curated platform for comparing proteomics data analysis workflows, and its planned extension toward benchmarking predictive models rather than the current identification and quantification benchmarks. This extension is the subject of a project submitted to the EuBIC-MS Hackathon 2027.\n\n\nResponsible (re)use\nMagnus covered ongoing discussions in the responsible (re)use track. On research integrity, he discussed the potential misuse of generative AI to synthesize artificial mass spectrometry data and the implications for scientific integrity. Here, he mentioned recent work from PSI-AI members (Neely et al. 2023; Adams et al. 2026). Magnus also discussed diversity among both researchers and research subjects in proteomics and the model biases that follow from it. Finally, on privacy, he discussed re-identifiability in mass-spectrometry-based proteomics data (Li et al. 2016; Boonen et al. 2019), an area where PSI-AI is still working out shared concepts and terminology. This track’s contribution to the EuBIC-MS Hackathon 2027 covers the provenance of raw mass spectrometry data."
-  },
-  {
-    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#get-involved",
-    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#get-involved",
-    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
-    "section": "Get involved",
-    "text": "Get involved\nMore information on PSI-AI’s standards, benchmarks, and guidelines is available at psi-ai.org. If this work resonates, reach out at info at psi-ai dot org: PSI-AI welcomes new contributors to any of its three tracks."
-  },
-  {
-    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html",
-    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html",
-    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
-    "section": "",
-    "text": "The HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.\n\n\n\n\nGroup picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
-  },
-  {
-    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#introduction",
-    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#introduction",
-    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
-    "section": "",
-    "text": "The HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.\n\n\n\n\nGroup picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
-  },
-  {
-    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#a-recap-of-the-psi-ai-sessions",
-    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#a-recap-of-the-psi-ai-sessions",
-    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
-    "section": "A recap of the PSI-AI sessions",
-    "text": "A recap of the PSI-AI sessions\n\nHands-on training in reprocessing public proteomics data\nThe week opened with the Education Day, a new format aimed at introducing PSI standards to newer members. The AI-readiness Working Group used the day for two things: a morning session on the core concepts of reprocessing public proteomics data, including the standards and analytical hurdles involved, followed by an afternoon of hands-on technical and biological tutorials that translated the conceptual material into actionable code. The materials will be shared openly and reused at the HUPO pre-congress workshop, which means the audience for this work extends well beyond the people who happened to be in the room.\n\n\n\n\n\n\nNoteHands-on tutorials\n\n\n\nTry out the hands-on tutorials from the Education Day and learn how PSI standards can be used in AI workflows for peptide property prediction:\n\nFrom search results to a spectral library (mzSpecLib, mzPAF, ProForma, and PSI-MOD)\nRetention time prediction (mzSpecLib, ProForma)\nFragment intensity prediction with a BiLSTM (mzSpecLib, mzPAF, USI, and PROXI)\n\n\n\n\n\nAI as a new layer on existing PSI standards\nThe meeting itself opened with a joint coordinating session, and the value of that format became clear almost immediately. AI is now present across the entire experimental workflow, which means the Working Group needs to engage closely with the other PSI Working Groups and treat AI as a new layer on top of existing standards rather than a parallel track. That principle keeps the work moving faster and preserves interoperability.\n\n\nAdapting AnnData for proteomics with PSI-AI and scverse\nNowhere was this more visible than in the quantification format discussion. The proposal builds on AnnData (Virshup et al. 2024), the format the scverse community developed for single-cell omics, and adapts it for proteomics quantification. The division of labor is deliberate: PSI-AI defines the ontology and validation rules, while scverse contributes the underlying implementation. Feedback in the room was positive, particularly on the use of controlled vocabularies and on linking SDRF with AnnData so that provenance travels with the data, going beyond raw measurements to capture the statistical and biological transformations and conclusions drawn from them. LinkML emerged as a candidate for handling the unstructured section of AnnData, and the next steps focus on defining the specification, the validator, and reference implementations.\n\n\nmzPeak is a faster alternative to mzML for upstream data access\nIf quantification was about giving downstream analysis a stable home, the mzPeak (Van Den Bossche et al. 2025) session was about making upstream access faster. This effort, a core focus of the PSI-MS group, already shows substantial speed improvements over mzML, and implementations are appearing across multiple programming languages. The next step is to formalize the standard, and vendor engagement will be actively pursued, since input from instrument manufacturers will be essential to ensure widespread adoption.\n\n\nAutomated metadata extraction from raw files and publications\nStandards are only as useful as the metadata that travels with them, which is why the SDRF (Dai et al. 2021) session drew so much attention. HAMLET, an agentic pipeline that extracts structured metadata directly from raw files and accompanying publications, was introduced as a way to close the gap between the data that exists in public repositories and the metadata that should accompany it. The framework is tunable through prompts and ontologies, but the design choice that matters most is the emphasis on normalization rather than on the LLM itself. An essential point going forward will be a clear separation between human-annotated and AI-generated metadata files, so that downstream users always know which is which.\n\n\nToward a practical checklist for AI in proteomics\nThat naturally led into the benchmarking and MIAPE-AI session, where ProteoBench (Devreese et al. 2025) and the ProteomicsML (Rehfeldt et al. 2023) index of existing methods and workflows set the stage. The group identified the AI tasks that currently appear most often in proteomics and began outlining MIAPE-AI, starting from the DOME guidelines. The ambition is pragmatic: a checklist that developers and reviewers can both use, with topic-specific flavors much like SDRF has spawned for different experimental designs. Retention time prediction, de novo sequencing, and biomarker discovery each deserve their own profile, and existing MIAPE documents will be revisited to incorporate AI-specific considerations rather than being displaced by new ones.\n\n\nResponsible AI across the proteomics data lifecycle\nEthics is an enormous topic, so the group approached it through the data lifecycle, since each step carries its own ethical concerns. Patient-level questions such as cohort selection, informed consent, and identifiability sit on one side, while data-level concerns such as encryption, metadata practices, and FASTA file handling sit on the other. Modeling-stage discussion centered on the DOME guidelines, and a viewpoint paper capturing this landscape is now in preparation.\n\n\n\n\nHUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
-  },
-  {
-    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#looking-ahead",
-    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#looking-ahead",
-    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
-    "section": "Looking ahead…",
-    "text": "Looking ahead…\nThree concrete deliverables are taking shape: the quantification format, the ethics viewpoint, and MIAPE-AI. Alongside those, the group is exploring formal collaborations with ELIXIR, the HUPO AI initiative, and other adjacent groups, with a longer-term goal of producing a PSI-powered, AI-ready proof-of-concept dataset that demonstrates the full integrated pipeline in practice. Four new members have joined the Working Group since the previous meeting, and the cadence remains the same, namely every two weeks on Tuesdays from 17:00 to 18:00 Central European time.\nIf any of this resonates, get in touch at info at psi-ai dot org. There is more than enough work to go around."
-  },
-  {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIMSC 2026 workshop: Is our proteomics data ready for AI?\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the PSI-AI workshop at the 2026 International Mass Spectrometry Conference, with updates from the three PSI-AI tracks: standards and reproducible workflows…\n\n\n\nRalf Gabriels, Magnus Palmblad, Robbe Devreese\n\n\nAug 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPSI-AI in Rome: Setting the scaffolds of AI-readiness\n\n\n\ncommunity\n\nworkshop\n\n\n\nA recap of the HUPO-PSI Spring Meeting in Rome, where the AI-readiness Working Group discussed quantification formats, SDRF metadata, MIAPE-AI guidelines, and ethics across…\n\n\n\nTine Claeys, Ralf Gabriels, Samuel Wein\n\n\nMay 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHUPO 2025 workshop: What AI-ready proteomics data should look like\n\n\n\ncommunity\n\nworkshop\n\n\n\nRecap of the HUPO 2025 Bioinformatics Hub workshop on AI-readiness, covering raw data, identification, and quantification.\n\n\n\nRalf Gabriels, Samuel Wein, Tine Claeys\n\n\nFeb 4, 2026\n\n\n\n\n\n\nNo matching items\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
+  },
+  {
+    "objectID": "governance/index.html",
+    "href": "governance/index.html",
+    "title": "Governance",
+    "section": "",
+    "text": "PSI-AI is a working group of the HUPO Proteomics Standards Initiative (HUPO-PSI). The documents below describe how the working group is organized and what is expected of everyone who takes part in it.\n\nWorking group charter: the working group’s purpose, goals, and chairs.\nCode of conduct: expected behavior in all PSI-AI community spaces, and how to report a violation.\nDecision making: how the working group makes decisions, and how members can propose and object to them.\n\n\n\n\nReuseCC BY 4.0CopyrightHUPO-PSI AI-readiness Working Group"
   },
   {
     "objectID": "governance/charter/index.html",
@@ -194,6 +82,90 @@
     "title": "Working group charter",
     "section": "Goals/Milestones",
     "text": "Goals/Milestones\n\nGoal 1: Publish a review on good reprocessing practices in large-scale proteomics\nGoal 2: Curate a benchmark corpus of selected public datasets in homogeneous format\nGoal 3: Collaborate with EuBIC-MS for the development of a retroactive metadata annotation pipeline\nGoal 4: Development of a community-driven and open-access reprocessing workflow\nGoal 5: Collaborate with existing benchmarking community efforts such as ProteoBench to benchmark AI pipelines\nGoal 6: Collaborate with existing educational community efforts such as ProteomicsML to educate users on AI applications within proteomics"
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html",
+    "href": "governance/code-of-conduct/index.html",
+    "title": "Code of conduct",
+    "section": "",
+    "text": "We as members, contributors, participants, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#our-pledge",
+    "href": "governance/code-of-conduct/index.html#our-pledge",
+    "title": "Code of conduct",
+    "section": "",
+    "text": "We as members, contributors, participants, and leaders of the HUPO-PSI AI-readiness Working Group (PSI-AI) pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#our-standards",
+    "href": "governance/code-of-conduct/index.html#our-standards",
+    "title": "Code of conduct",
+    "section": "Our standards",
+    "text": "Our standards\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nMaking room for others to speak in meetings and discussions, including newcomers and non-native English speakers\nGiving appropriate credit for the ideas and work of others\nRespecting the confidentiality of unpublished work shared within the community\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nSustained disruption of meetings, talks, or discussions\nSharing unpublished data, results, or ideas presented in community spaces without the presenter’s permission\nRecording meetings, or sharing recordings or screenshots of them, without the knowledge of the participants\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#scope",
+    "href": "governance/code-of-conduct/index.html#scope",
+    "title": "Code of conduct",
+    "section": "Scope",
+    "text": "Scope\nThis code of conduct applies within all community spaces of PSI-AI, including working group calls, meetings, workshops, and other events organized under the PSI-AI name, as well as online spaces such as mailing lists, chat channels, and code repositories. It also applies when an individual is officially representing the community in public spaces, for example when using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event. At events organized by other parties, such as PSI-AI sessions at conferences, the host’s code of conduct applies in addition to this one."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#community-leaders",
+    "href": "governance/code-of-conduct/index.html#community-leaders",
+    "title": "Code of conduct",
+    "section": "Community leaders",
+    "text": "Community leaders\nThe community leaders of PSI-AI are the chair and co-chairs of the working group, as listed in the working group charter. Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to act on behavior that is not aligned with this code of conduct, in any community space. This includes interrupting or redirecting a discussion, muting or removing a participant from an online meeting, asking a participant to leave a session or event, and removing or editing messages, comments, or other contributions in online spaces. Community leaders will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#reporting",
+    "href": "governance/code-of-conduct/index.html#reporting",
+    "title": "Code of conduct",
+    "section": "Reporting",
+    "text": "Reporting\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at info at psi-ai dot org. If a report concerns one or more community leaders, or if the reporter prefers not to contact them, it may instead be sent to the HUPO-PSI Officers. Such reports are handled by Officers who are not community leaders of PSI-AI. During meetings and events, incidents may also be reported in person to any community leader. All complaints will be reviewed and investigated promptly and fairly. Community leaders who are involved in a reported incident do not take part in handling it.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#enforcement-guidelines",
+    "href": "governance/code-of-conduct/index.html#enforcement-guidelines",
+    "title": "Code of conduct",
+    "section": "Enforcement guidelines",
+    "text": "Enforcement guidelines\nCommunity leaders will follow these community impact guidelines in determining the consequences for any action they deem in violation of this code of conduct.\n\n1. Correction\nCommunity impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n2. Warning\nCommunity impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n3. Temporary ban\nCommunity impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from working group calls, events, and online spaces, and from any public communication with the community, for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the code of conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n4. Permanent ban\nCommunity impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from all working group calls, events, and online spaces, and from any public interaction within the community."
+  },
+  {
+    "objectID": "governance/code-of-conduct/index.html#attribution",
+    "href": "governance/code-of-conduct/index.html#attribution",
+    "title": "Code of conduct",
+    "section": "Attribution",
+    "text": "Attribution\nThis code of conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity impact guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq."
+  },
+  {
+    "objectID": "governance/decision-making/index.html",
+    "href": "governance/decision-making/index.html",
+    "title": "Decision making",
+    "section": "",
+    "text": "This page outlines the principles and process that PSI-AI follows when making decisions. It is intended to provide transparency and predictability to the community, and to ensure that decisions are made in a way that is consistent with the goals of the working group."
+  },
+  {
+    "objectID": "governance/decision-making/index.html#principles-of-decision-making",
+    "href": "governance/decision-making/index.html#principles-of-decision-making",
+    "title": "Decision making",
+    "section": "Principles of decision making",
+    "text": "Principles of decision making\n\nEmbrace differing viewpoints. When someone raises a concern, treat it as an opportunity to refine the proposal and to uncover and discuss the values underlying that concern. Dissent should be approached in a friendly, collaborative spirit.\nThoroughly understand and collaboratively address concerns. No concern can be resolved without first comprehending it, including the values behind it. We demonstrate our understanding by documenting the issue and considering potential trade-offs in light of the goals of the working group. Our goal is to find solutions that satisfy all parties’ values, rather than merely seeking compromises that are acceptable but do not fully address everyone’s concerns.\nAvoid forcing irreversible decisions. Whenever possible, decisions should be made in a reversible manner. If a choice that is hard to reverse must be made, heightened care must be taken to consider dissent. In such cases, attempt to find a better alternative, establish common ground that can lead to consensus, or propose an intermediate step that addresses the same need while allowing further evaluation. If none of these paths are feasible, consider taking no action at all, as refraining from change should generally be the simpler option. The threshold for moving forward with an irreversible decision in spite of an objection should be high.\nRespect expertise. When working through a concern, or in situations where an objection might be overridden, place considerable weight on the insights and recommendations of knowledgeable individuals. This includes experts in the relevant field, members of other HUPO-PSI working groups, and leaders or contributors of related projects and initiatives.\nDocument the rationale. Documenting the rationale fosters consistent, high-quality decisions. Even if an objection is ultimately not sustained, it should always be recorded, along with the reasons for the choice to proceed and any remaining open questions to revisit. The member who originally raised the concern has the right to draft this record, framing any unresolved issues (within reasonable bounds).\nConsensus does not require unanimity. In this context, consensus means that every voice has been heard and every concern addressed, even if some objections are not deemed blocking. The working group must collectively consider the final outcome acceptable, but this does not imply complete agreement from every individual."
+  },
+  {
+    "objectID": "governance/decision-making/index.html#decision-making-process",
+    "href": "governance/decision-making/index.html#decision-making-process",
+    "title": "Decision making",
+    "section": "Decision-making process",
+    "text": "Decision-making process\n\nProposal. A member of the working group proposes a decision on the mailing list, during a working group call, or in a discussion thread in the relevant repository. The proposal should include a clear description of the problem, the proposed solution, and the rationale behind it.\nDiscussion. The working group discusses the proposal, asking questions and raising concerns. The goal is to ensure that everyone understands the proposal and its implications, and to identify any potential issues that need to be addressed.\nResolution. The working group reaches a decision by consensus. If there are unresolved concerns, the proposal may be revised or postponed until they can be addressed. If consensus cannot be reached, the proposal is escalated to the core team.\nEscalation (optional). If the working group is unable to reach consensus, the core team of PSI-AI (see the working group charter), discusses the proposal further. They may accept the proposal as is, request revisions, or reject it. The outcome and its rationale are communicated back to the working group in the place where the proposal was made.\nImplementation. Once a decision has been reached, the proposal is implemented by the member who proposed it, or by another member who volunteers to do so. The implementation should follow the proposal, and is reviewed by the working group following the same process."
+  },
+  {
+    "objectID": "governance/decision-making/index.html#attribution",
+    "href": "governance/decision-making/index.html#attribution",
+    "title": "Decision making",
+    "section": "Attribution",
+    "text": "Attribution\nThis page is adapted from the decision-making page of the Rusteomics project, licensed under CC BY 4.0. The Rusteomics principles were in turn adapted from the Rust decision-making process, licensed under MIT/Apache-2.0. The text was adapted to the context of PSI-AI."
   },
   {
     "objectID": "index.html",
@@ -229,5 +201,61 @@
     "title": "PSI-AI",
     "section": "Get Involved",
     "text": "Get Involved\n\n\n🤝 Contribute content\n\nSubmit documentation\nShare best practices\nReview community submissions\nProvide feedback\n\n\n\n💬 Join discussions\n\nAttend community calls\nParticipate in the working group task forces\nComment on proposals\nShare project experiences\n\n\n\n\n\n\n\n\n\nNoteReady to start?\n\n\n\nJoin our efforts to make proteomics data more accessible and useful for the AI/ML community. Every contribution, no matter how small, helps advance the field. To get involved, please contact us at info at psi-ai dot org."
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "",
+    "text": "The HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.\n\n\n\n\nGroup picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#introduction",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#introduction",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "",
+    "text": "The HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group joined the most recent Spring Meeting in Rome, where the full week was devoted to the many facets of AI in proteomics. AI is no longer an isolated corner of the conference program but has become one of the most prominent and fastest-evolving parts of our field, shaping how we process spectra, extract metadata, benchmark tools, and arrive at diagnostic conclusions. The Spring Meeting was an opportunity for the Working Group to decide how best to support and guide responsible AI development within this landscape.\n\n\n\n\nGroup picture of the HUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#a-recap-of-the-psi-ai-sessions",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#a-recap-of-the-psi-ai-sessions",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "A recap of the PSI-AI sessions",
+    "text": "A recap of the PSI-AI sessions\n\nHands-on training in reprocessing public proteomics data\nThe week opened with the Education Day, a new format aimed at introducing PSI standards to newer members. The AI-readiness Working Group used the day for two things: a morning session on the core concepts of reprocessing public proteomics data, including the standards and analytical hurdles involved, followed by an afternoon of hands-on technical and biological tutorials that translated the conceptual material into actionable code. The materials will be shared openly and reused at the HUPO pre-congress workshop, which means the audience for this work extends well beyond the people who happened to be in the room.\n\n\n\n\n\n\nNoteHands-on tutorials\n\n\n\nTry out the hands-on tutorials from the Education Day and learn how PSI standards can be used in AI workflows for peptide property prediction:\n\nFrom search results to a spectral library (mzSpecLib, mzPAF, ProForma, and PSI-MOD)\nRetention time prediction (mzSpecLib, ProForma)\nFragment intensity prediction with a BiLSTM (mzSpecLib, mzPAF, USI, and PROXI)\n\n\n\n\n\nAI as a new layer on existing PSI standards\nThe meeting itself opened with a joint coordinating session, and the value of that format became clear almost immediately. AI is now present across the entire experimental workflow, which means the Working Group needs to engage closely with the other PSI Working Groups and treat AI as a new layer on top of existing standards rather than a parallel track. That principle keeps the work moving faster and preserves interoperability.\n\n\nAdapting AnnData for proteomics with PSI-AI and scverse\nNowhere was this more visible than in the quantification format discussion. The proposal builds on AnnData (Virshup et al. 2024), the format the scverse community developed for single-cell omics, and adapts it for proteomics quantification. The division of labor is deliberate: PSI-AI defines the ontology and validation rules, while scverse contributes the underlying implementation. Feedback in the room was positive, particularly on the use of controlled vocabularies and on linking SDRF with AnnData so that provenance travels with the data, going beyond raw measurements to capture the statistical and biological transformations and conclusions drawn from them. LinkML emerged as a candidate for handling the unstructured section of AnnData, and the next steps focus on defining the specification, the validator, and reference implementations.\n\n\nmzPeak is a faster alternative to mzML for upstream data access\nIf quantification was about giving downstream analysis a stable home, the mzPeak (Van Den Bossche et al. 2025) session was about making upstream access faster. This effort, a core focus of the PSI-MS group, already shows substantial speed improvements over mzML, and implementations are appearing across multiple programming languages. The next step is to formalize the standard, and vendor engagement will be actively pursued, since input from instrument manufacturers will be essential to ensure widespread adoption.\n\n\nAutomated metadata extraction from raw files and publications\nStandards are only as useful as the metadata that travels with them, which is why the SDRF (Dai et al. 2021) session drew so much attention. HAMLET, an agentic pipeline that extracts structured metadata directly from raw files and accompanying publications, was introduced as a way to close the gap between the data that exists in public repositories and the metadata that should accompany it. The framework is tunable through prompts and ontologies, but the design choice that matters most is the emphasis on normalization rather than on the LLM itself. An essential point going forward will be a clear separation between human-annotated and AI-generated metadata files, so that downstream users always know which is which.\n\n\nToward a practical checklist for AI in proteomics\nThat naturally led into the benchmarking and MIAPE-AI session, where ProteoBench (Devreese et al. 2025) and the ProteomicsML (Rehfeldt et al. 2023) index of existing methods and workflows set the stage. The group identified the AI tasks that currently appear most often in proteomics and began outlining MIAPE-AI, starting from the DOME guidelines. The ambition is pragmatic: a checklist that developers and reviewers can both use, with topic-specific flavors much like SDRF has spawned for different experimental designs. Retention time prediction, de novo sequencing, and biomarker discovery each deserve their own profile, and existing MIAPE documents will be revisited to incorporate AI-specific considerations rather than being displaced by new ones.\n\n\nResponsible AI across the proteomics data lifecycle\nEthics is an enormous topic, so the group approached it through the data lifecycle, since each step carries its own ethical concerns. Patient-level questions such as cohort selection, informed consent, and identifiability sit on one side, while data-level concerns such as encryption, metadata practices, and FASTA file handling sit on the other. Modeling-stage discussion centered on the DOME guidelines, and a viewpoint paper capturing this landscape is now in preparation.\n\n\n\n\nHUPO-PSI Spring Meeting 2026, 5-8 May 2026, Rome (IT)"
+  },
+  {
+    "objectID": "blog/posts/2026-05-27-psi-spring-meeting/index.html#looking-ahead",
+    "href": "blog/posts/2026-05-27-psi-spring-meeting/index.html#looking-ahead",
+    "title": "PSI-AI in Rome: Setting the scaffolds of AI-readiness",
+    "section": "Looking ahead…",
+    "text": "Looking ahead…\nThree concrete deliverables are taking shape: the quantification format, the ethics viewpoint, and MIAPE-AI. Alongside those, the group is exploring formal collaborations with ELIXIR, the HUPO AI initiative, and other adjacent groups, with a longer-term goal of producing a PSI-powered, AI-ready proof-of-concept dataset that demonstrates the full integrated pipeline in practice. Four new members have joined the Working Group since the previous meeting, and the cadence remains the same, namely every two weeks on Tuesdays from 17:00 to 18:00 Central European time.\nIf any of this resonates, get in touch at info at psi-ai dot org. There is more than enough work to go around."
+  },
+  {
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "",
+    "text": "At the 2026 International Mass Spectrometry Conference (IMSC) in Lyon (France), Ralf Gabriels (VIB-UGent), Magnus Palmblad (LUMC), and Robbe Devreese (VIB-UGent) ran a workshop titled “Is our proteomics data ready for AI? A PSI-AI workshop”, on behalf of the HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group (PSI-AI). About 60 participants attended.\nA digital poll opened the session by asking what participants expected to get out of it: 87% came to learn, 11% to discuss, and 2% to contribute. Given this near-unanimous appetite for learning, we pivoted the workshop toward education rather than open discussion. A second poll mapped the group’s experience with AI in proteomics: 42% reported close to no experience, 23% used proteomics software that embeds AI models without building or training them, 25% had applied existing AI models to their own data, 6% had trained their own models, and 4% worked mainly on developing AI models for proteomics. The audience therefore consisted mostly of newcomers and consumers of existing models, with very few producers. About 20% of participants were already familiar with HUPO-PSI, which made the workshop a useful outreach opportunity for the initiative as a whole.\nAfter the polls, an introduction to HUPO-PSI and the PSI-AI working group led into background on what AI is (and is not), how AI is applied in proteomics, and why PSI-AI was set up. The rest of the workshop gave an update on each of PSI-AI’s three tracks, summarized below."
+  },
+  {
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#introduction",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#introduction",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "",
+    "text": "At the 2026 International Mass Spectrometry Conference (IMSC) in Lyon (France), Ralf Gabriels (VIB-UGent), Magnus Palmblad (LUMC), and Robbe Devreese (VIB-UGent) ran a workshop titled “Is our proteomics data ready for AI? A PSI-AI workshop”, on behalf of the HUPO-PSI (Deutsch et al. 2023) AI-readiness Working Group (PSI-AI). About 60 participants attended.\nA digital poll opened the session by asking what participants expected to get out of it: 87% came to learn, 11% to discuss, and 2% to contribute. Given this near-unanimous appetite for learning, we pivoted the workshop toward education rather than open discussion. A second poll mapped the group’s experience with AI in proteomics: 42% reported close to no experience, 23% used proteomics software that embeds AI models without building or training them, 25% had applied existing AI models to their own data, 6% had trained their own models, and 4% worked mainly on developing AI models for proteomics. The audience therefore consisted mostly of newcomers and consumers of existing models, with very few producers. About 20% of participants were already familiar with HUPO-PSI, which made the workshop a useful outreach opportunity for the initiative as a whole.\nAfter the polls, an introduction to HUPO-PSI and the PSI-AI working group led into background on what AI is (and is not), how AI is applied in proteomics, and why PSI-AI was set up. The rest of the workshop gave an update on each of PSI-AI’s three tracks, summarized below."
+  },
+  {
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#updates-from-the-psi-ai-tracks",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#updates-from-the-psi-ai-tracks",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "Updates from the PSI-AI tracks",
+    "text": "Updates from the PSI-AI tracks\nEach track was presented by one of the workshop’s organizers.\n\nStandards and reproducible workflows\nRalf covered three ongoing standards efforts: mzPeak (Van Den Bossche et al. 2025), a scalable and interoperable format for raw mass spectrometry data; an AnnData-based (Virshup et al. 2024) representation for proteomics quantification, adapted from the format the single-cell community built for annotated data matrices; and an updated Minimum Information About a Proteomics Experiment (MIAPE) guideline that accounts for AI-specific reporting needs.\n\n\nBenchmarking\nRobbe introduced ProteoBench (Devreese et al. 2025), the community-curated platform for comparing proteomics data analysis workflows, and its planned extension toward benchmarking predictive models rather than the current identification and quantification benchmarks. This extension is the subject of a project submitted to the EuBIC-MS Hackathon 2027.\n\n\nResponsible (re)use\nMagnus covered ongoing discussions in the responsible (re)use track. On research integrity, he discussed the potential misuse of generative AI to synthesize artificial mass spectrometry data and the implications for scientific integrity. Here, he mentioned recent work from PSI-AI members (Neely et al. 2023; Adams et al. 2026). Magnus also discussed diversity among both researchers and research subjects in proteomics and the model biases that follow from it. Finally, on privacy, he discussed re-identifiability in mass-spectrometry-based proteomics data (Li et al. 2016; Boonen et al. 2019), an area where PSI-AI is still working out shared concepts and terminology. This track’s contribution to the EuBIC-MS Hackathon 2027 covers the provenance of raw mass spectrometry data."
+  },
+  {
+    "objectID": "blog/posts/2026-08-26-imsc-workshop/index.html#get-involved",
+    "href": "blog/posts/2026-08-26-imsc-workshop/index.html#get-involved",
+    "title": "IMSC 2026 workshop: Is our proteomics data ready for AI?",
+    "section": "Get involved",
+    "text": "Get involved\nMore information on PSI-AI’s standards, benchmarks, and guidelines is available at psi-ai.org. If this work resonates, reach out at info at psi-ai dot org: PSI-AI welcomes new contributors to any of its three tracks."
   }
 ]
