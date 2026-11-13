@@ -22,15 +22,19 @@ This page outlines the principles and process that PSI-AI follows when making de
 
 ## Decision-making process
 
-1. **Proposal.** A member of the working group proposes a decision on the mailing list, during a working group call, or in a discussion thread in the relevant repository. The proposal should include a clear description of the problem, the proposed solution, and the rationale behind it.
+1. **Proposal.** A member of the working group proposes a decision in one of the working group's communication channels or during a working group meeting. The proposal should include a clear description of the problem, the proposed solution, and the rationale behind it.
 
-2. **Discussion.** The working group discusses the proposal, asking questions and raising concerns. The goal is to ensure that everyone understands the proposal and its implications, and to identify any potential issues that need to be addressed.
+2. **Discussion.** The working group discusses the proposal, asking questions and raising concerns. The goal is to ensure that everyone understands the proposal and its implications, and to identify any potential issues that need to be addressed. Proposals remain open long enough for members to join the discussion and review the proposal.
 
 3. **Resolution.** The working group reaches a decision by consensus. If there are unresolved concerns, the proposal may be revised or postponed until they can be addressed. If consensus cannot be reached, the proposal is escalated to the core team.
 
-4. **Escalation (optional).** If the working group is unable to reach consensus, the core team of PSI-AI (see the [working group charter](../charter/index.qmd)), discusses the proposal further. They may accept the proposal as is, request revisions, or reject it. The outcome and its rationale are communicated back to the working group in the place where the proposal was made.
+4. **Escalation (optional).** If the working group is unable to reach consensus, the core team of PSI-AI (see the [working group charter](../charter/index.qmd)) discusses the proposal further. They may accept the proposal as is, request revisions, or reject it. The outcome and its rationale are communicated back to the working group in the place where the proposal was made.
 
 5. **Implementation.** Once a decision has been reached, the proposal is implemented by the member who proposed it, or by another member who volunteers to do so. The implementation should follow the proposal, and is reviewed by the working group following the same process.
+
+## Conflicts of interest
+
+Members declare any conflict of interest in a proposal, such as a commercial stake or a competing grant, before a decision is taken. Members with a conflict of interest can take part in the discussion and share their expertise, but do not take part in making the decision itself, including when the proposal is escalated to the core team. Declared conflicts are recorded together with the decision.
 
 ## Attribution
 
